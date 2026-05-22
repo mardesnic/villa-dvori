@@ -11,12 +11,12 @@ const destinations = [
   {
     img: '/images/location/korcula.jpg',
     name: 'Korčula Island',
-    sub: 'boat taxi ride',
+    sub: '30 min by boat',
   },
   {
     img: '/images/location/mljet.jpg',
     name: 'Mljet National Park',
-    sub: 'boat taxi ride',
+    sub: '1 hr by boat',
   },
   {
     img: '/images/location/dubrovnik.jpg',
