@@ -1,53 +1,73 @@
-import Hero from "@/components/Hero";
-import AccommodationSection from "@/components/AccommodationSection";
-import GalleryGrid from "@/components/GalleryGrid";
-import LocationSection from "@/components/LocationSection";
-import TeamSection from "@/components/TeamSection";
-import ContactSection from "@/components/ContactSection";
-import Link from "next/link";
+import Hero from '@/components/Hero';
+import AccommodationSection from '@/components/AccommodationSection';
+import GalleryGrid from '@/components/GalleryGrid';
+import LocationSection from '@/components/LocationSection';
+import TeamSection from '@/components/TeamSection';
+import VideoSection from '@/components/VideoSection';
+import ContactSection from '@/components/ContactSection';
+import { exteriorImages, interiorImages } from '@/data/images';
 
-const exteriorImages = [
-  { src: "/villa-dvori/img/novo/exterior/1.webp", alt: "Villa Dvori exterior view 1" },
-  { src: "/villa-dvori/img/novo/exterior/2.webp", alt: "Villa Dvori exterior view 2" },
-  { src: "/villa-dvori/img/novo/exterior/3.webp", alt: "Villa Dvori exterior view 3" },
-  { src: "/villa-dvori/img/novo/exterior/4.webp", alt: "Villa Dvori exterior view 4" },
-];
-
-const interiorImages = [
-  { src: "/villa-dvori/img/novo/interior/1.webp", alt: "Villa Dvori interior 1" },
-  { src: "/villa-dvori/img/novo/interior/2.webp", alt: "Villa Dvori interior 2" },
-  { src: "/villa-dvori/img/novo/interior/3.webp", alt: "Villa Dvori interior 3" },
-  { src: "/villa-dvori/img/novo/interior/4.webp", alt: "Villa Dvori interior 4" },
-  { src: "/villa-dvori/img/novo/interior/5.webp", alt: "Villa Dvori interior 5" },
-  { src: "/villa-dvori/img/novo/interior/6.webp", alt: "Villa Dvori interior 6" },
-  { src: "/villa-dvori/img/novo/interior/7.webp", alt: "Villa Dvori interior 7" },
-  { src: "/villa-dvori/img/novo/interior/8.webp", alt: "Villa Dvori interior 8" },
-];
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'LodgingBusiness',
+  name: 'Villa Dvori',
+  description:
+    'Luxury holiday villa in Podobuče, Pelješac, Croatia. Heated pool, Mediterranean gardens, sea views. Sleeps up to 12 guests across three private apartments.',
+  url: 'https://villadvori.com',
+  image: 'https://villadvori.com/images/hero.webp',
+  telephone: '+385914714378',
+  email: 'sanda.desnica@gmail.com',
+  address: {
+    '@type': 'PostalAddress',
+    addressLocality: 'Podobuče',
+    addressRegion: 'Pelješac',
+    addressCountry: 'HR',
+  },
+  amenityFeature: [
+    { '@type': 'LocationFeatureSpecification', name: 'Heated swimming pool', value: true },
+    { '@type': 'LocationFeatureSpecification', name: 'WiFi', value: true },
+    { '@type': 'LocationFeatureSpecification', name: 'Air conditioning', value: true },
+    { '@type': 'LocationFeatureSpecification', name: 'Barbecue', value: true },
+    { '@type': 'LocationFeatureSpecification', name: 'Table tennis', value: true },
+  ],
+  numberOfRooms: 6,
+  occupancy: { '@type': 'QuantitativeValue', maxValue: 12 },
+};
 
 export default function Home() {
   return (
-    <main style={{ paddingTop: 48 }}>
+    <main>
+      <script
+        type='application/ld+json'
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <Hero />
 
       <AccommodationSection />
 
-      <div className="py-3">
-        <GalleryGrid images={exteriorImages} layout="exterior" title="Exterior gallery" />
+      <div className='py-4'>
+        <GalleryGrid
+          images={exteriorImages}
+          layout='exterior'
+          title='Exterior'
+          subtitle='Gardens, pool, terraces & Adriatic views'
+        />
       </div>
 
-      <div className="py-3">
-        <GalleryGrid images={interiorImages} layout="interior" title="Interior gallery" />
-      </div>
-
-      <div className="text-center py-4">
-        <Link href="/gallery/" className="btn-villa" style={{ textDecoration: "none" }}>
-          <span className="font-garamond" style={{ fontStyle: "italic" }}>more </span>PHOTOS &gt;
-        </Link>
+      <div className='pb-4'>
+        <GalleryGrid
+          images={interiorImages}
+          layout='interior'
+          title='Interior'
+          subtitle='Bedrooms, living spaces & fully equipped kitchen'
+        />
       </div>
 
       <LocationSection />
 
       <TeamSection />
+
+      <VideoSection />
 
       <ContactSection />
     </main>

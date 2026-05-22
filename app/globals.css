@@ -1,8 +1,32 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
 
+html,
+body {
+  overflow-x: hidden;
+}
+
 body {
   font-family: var(--font-josefin), 'Josefin Sans', sans-serif;
-  overflow-x: hidden;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+  outline: 0;
+}
+
+.gallery-btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.nav-active-bar {
+  display: none;
+}
+
+@media (min-width: 576px) {
+  .nav-active-bar {
+    display: block;
+  }
 }
 
 .font-garamond {
@@ -16,7 +40,9 @@ body {
   padding: 0.6rem 2rem;
   letter-spacing: 0.1em;
   font-size: 0.85rem;
-  transition: background 0.15s, color 0.15s;
+  transition:
+    background 0.15s,
+    color 0.15s;
 }
 
 .btn-villa:hover {

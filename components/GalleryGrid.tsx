@@ -1,9 +1,9 @@
-"use client";
+'use client';
 
-import { useState, useCallback } from "react";
-import Image from "next/image";
-import Lightbox from "yet-another-react-lightbox";
-import "yet-another-react-lightbox/styles.css";
+import { useState, useCallback } from 'react';
+import Image from 'next/image';
+import Lightbox from 'yet-another-react-lightbox';
+import 'yet-another-react-lightbox/styles.css';
 
 interface GalleryImage {
   src: string;
@@ -13,11 +13,34 @@ interface GalleryImage {
 
 interface Props {
   images: GalleryImage[];
-  layout?: "exterior" | "interior" | "grid";
+  layout?: 'exterior' | 'interior' | 'grid';
   title?: string;
+  subtitle?: string;
 }
 
-export default function GalleryGrid({ images, layout = "grid", title }: Props) {
+const btnStyle: React.CSSProperties = {
+  padding: 0,
+  border: 'none',
+  background: 'none',
+  overflow: 'hidden',
+  cursor: 'pointer',
+};
+
+const hoverIn = (e: React.MouseEvent<HTMLButtonElement>) => {
+  const img = e.currentTarget.querySelector('img');
+  if (img) img.style.transform = 'scale(1.05)';
+};
+const hoverOut = (e: React.MouseEvent<HTMLButtonElement>) => {
+  const img = e.currentTarget.querySelector('img');
+  if (img) img.style.transform = 'scale(1)';
+};
+
+export default function GalleryGrid({
+  images,
+  layout = 'grid',
+  title,
+  subtitle,
+}: Props) {
   const [open, setOpen] = useState(false);
   const [index, setIndex] = useState(0);
 
@@ -26,133 +49,179 @@ export default function GalleryGrid({ images, layout = "grid", title }: Props) {
     setOpen(true);
   }, []);
 
-  const slides = images.map((img) => ({ src: img.src, alt: img.alt }));
+  const slides = images.map(img => ({ src: img.src, alt: img.alt }));
 
-  const imgBtn = (i: number, aspectStyle: React.CSSProperties) => (
-    <button
-      key={i}
-      onClick={() => openLightbox(i)}
-      style={{
-        display: "block",
-        width: "100%",
-        padding: 0,
-        border: "none",
-        background: "none",
-        overflow: "hidden",
-        cursor: "pointer",
-        ...aspectStyle,
-      }}
-    >
-      <Image
-        src={images[i].src}
-        alt={images[i].alt}
-        fill
-        style={{ objectFit: "cover", transition: "transform 0.4s" }}
-        onMouseEnter={(e) => ((e.currentTarget as HTMLImageElement).style.transform = "scale(1.05)")}
-        onMouseLeave={(e) => ((e.currentTarget as HTMLImageElement).style.transform = "scale(1)")}
-      />
-    </button>
-  );
+  const SectionHeader = () =>
+    title || subtitle ? (
+      <div className='mb-3'>
+        {title && <p className='section-label'>{title}</p>}
+        {subtitle && (
+          <p style={{ color: '#666', fontSize: '0.9rem', marginTop: '0.25rem' }}>
+            {subtitle}
+          </p>
+        )}
+      </div>
+    ) : null;
 
-  if (layout === "exterior") {
+  if (layout === 'exterior') {
     return (
-      <div className="container-fluid px-3 px-md-4">
-        {title && <p className="section-label mb-3">{title}</p>}
-        <div className="row g-1 g-md-2" style={{ minHeight: 300 }}>
-          <div className="col-6" style={{ position: "relative" }}>
-            {imgBtn(0, { position: "relative", height: "100%" })}
-          </div>
-          <div className="col-6">
-            <div className="row g-1 g-md-2" style={{ height: "100%" }}>
-              <div className="col-12" style={{ position: "relative", height: "50%" }}>
-                {imgBtn(1, { position: "relative", height: "100%" })}
-              </div>
-              <div className="col-6" style={{ position: "relative", height: "50%" }}>
-                {imgBtn(2, { position: "relative", height: "100%" })}
-              </div>
-              <div className="col-6" style={{ position: "relative", height: "50%" }}>
-                {imgBtn(3, { position: "relative", height: "100%" })}
-              </div>
-            </div>
+      <div className='container-fluid px-3 px-md-4'>
+        <SectionHeader />
+        <div
+          style={{
+            display: 'grid',
+            gridTemplateColumns: '1fr 1fr',
+            gridTemplateRows: '250px 250px',
+            gap: 4,
+          }}
+        >
+          <button
+            className='gallery-btn'
+            onClick={() => openLightbox(0)}
+            onMouseEnter={hoverIn}
+            onMouseLeave={hoverOut}
+            style={{ ...btnStyle, gridRow: '1 / 3', position: 'relative' }}
+          >
+            <Image
+              src={images[0].src}
+              alt={images[0].alt}
+              fill
+              style={{ objectFit: 'cover', transition: 'transform 0.4s' }}
+            />
+          </button>
+          <button
+            className='gallery-btn'
+            onClick={() => openLightbox(1)}
+            onMouseEnter={hoverIn}
+            onMouseLeave={hoverOut}
+            style={{ ...btnStyle, position: 'relative' }}
+          >
+            <Image
+              src={images[1].src}
+              alt={images[1].alt}
+              fill
+              style={{ objectFit: 'cover', transition: 'transform 0.4s' }}
+            />
+          </button>
+          <div
+            style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 4 }}
+          >
+            <button
+              className='gallery-btn'
+              onClick={() => openLightbox(2)}
+              onMouseEnter={hoverIn}
+              onMouseLeave={hoverOut}
+              style={{ ...btnStyle, position: 'relative' }}
+            >
+              <Image
+                src={images[2].src}
+                alt={images[2].alt}
+                fill
+                style={{ objectFit: 'cover', transition: 'transform 0.4s' }}
+              />
+            </button>
+            <button
+              className='gallery-btn'
+              onClick={() => openLightbox(3)}
+              onMouseEnter={hoverIn}
+              onMouseLeave={hoverOut}
+              style={{ ...btnStyle, position: 'relative' }}
+            >
+              <Image
+                src={images[3].src}
+                alt={images[3].alt}
+                fill
+                style={{ objectFit: 'cover', transition: 'transform 0.4s' }}
+              />
+            </button>
           </div>
         </div>
-        <Lightbox open={open} close={() => setOpen(false)} index={index} slides={slides} />
+        <Lightbox
+          open={open}
+          close={() => setOpen(false)}
+          index={index}
+          slides={slides}
+        />
       </div>
     );
   }
 
-  if (layout === "interior") {
+  if (layout === 'interior') {
     return (
-      <div className="container-fluid px-3 px-md-4">
-        {title && <p className="section-label mb-3">{title}</p>}
-        <div className="row g-1 g-md-2">
-          {images.slice(0, 8).map((_, i) => (
-            <div key={i} className="col-6 col-md-3" style={{ position: "relative", paddingBottom: "25%" }}>
+      <div className='container-fluid px-3 px-md-4'>
+        <SectionHeader />
+        <div className='row g-2'>
+          {images.slice(0, 8).map((img, i) => (
+            <div key={i} className='col-6 col-md-3'>
               <button
+                className='gallery-btn'
                 onClick={() => openLightbox(i)}
+                onMouseEnter={hoverIn}
+                onMouseLeave={hoverOut}
                 style={{
-                  position: "absolute",
-                  inset: "4px",
-                  padding: 0,
-                  border: "none",
-                  background: "none",
-                  overflow: "hidden",
-                  cursor: "pointer",
+                  ...btnStyle,
+                  display: 'block',
+                  width: '100%',
+                  aspectRatio: '4 / 3',
+                  position: 'relative',
                 }}
               >
                 <Image
-                  src={images[i].src}
-                  alt={images[i].alt}
+                  src={img.src}
+                  alt={img.alt}
                   fill
-                  style={{ objectFit: "cover", transition: "transform 0.4s" }}
-                  onMouseEnter={(e) => ((e.currentTarget as HTMLImageElement).style.transform = "scale(1.05)")}
-                  onMouseLeave={(e) => ((e.currentTarget as HTMLImageElement).style.transform = "scale(1)")}
+                  style={{ objectFit: 'cover', transition: 'transform 0.4s' }}
                 />
               </button>
             </div>
           ))}
         </div>
-        <Lightbox open={open} close={() => setOpen(false)} index={index} slides={slides} />
+        <Lightbox
+          open={open}
+          close={() => setOpen(false)}
+          index={index}
+          slides={slides}
+        />
       </div>
     );
   }
 
-  // Grid layout for gallery page
   return (
-    <>
-      {title && (
-        <p className="section-label text-center mb-4" style={{ fontSize: "1rem" }}>
-          {title}
-        </p>
-      )}
-      <div className="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-2">
+    <div className='container-fluid px-3 px-md-4'>
+      <SectionHeader />
+      <div className='row g-2'>
         {images.map((img, i) => (
-          <div key={i} className="col">
+          <div key={i} className='col-6 col-md-4 col-lg-3'>
             <button
+              className='gallery-btn'
               onClick={() => openLightbox(i)}
+              onMouseEnter={hoverIn}
+              onMouseLeave={hoverOut}
               style={{
-                display: "block",
-                width: "100%",
-                padding: 0,
-                border: "none",
-                background: "none",
-                cursor: "pointer",
-                overflow: "hidden",
+                ...btnStyle,
+                display: 'block',
+                width: '100%',
+                aspectRatio: '4 / 3',
+                position: 'relative',
               }}
             >
               <Image
                 src={img.thumb || img.src}
                 alt={img.alt}
-                width={400}
-                height={300}
-                className="img-fluid"
-                style={{ display: "block", width: "100%", height: "auto" }}
+                fill
+                loading={i < 8 ? 'eager' : 'lazy'}
+                style={{ objectFit: 'cover', transition: 'transform 0.4s' }}
               />
             </button>
           </div>
         ))}
       </div>
-      <Lightbox open={open} close={() => setOpen(false)} index={index} slides={slides} />
-    </>
+      <Lightbox
+        open={open}
+        close={() => setOpen(false)}
+        index={index}
+        slides={slides}
+      />
+    </div>
   );
 }
