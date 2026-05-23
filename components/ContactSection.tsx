@@ -74,7 +74,7 @@ export default function ContactSection() {
             <div className='row gy-3'>
               {rules.map((rule, i) => (
                 <div key={i} className='col-md-6'>
-                  <div className='d-flex gap-3 align-items-start'>
+                  <div className='d-flex gap-3 align-items-center'>
                     <span
                       style={{
                         flexShrink: 0,
@@ -87,7 +87,6 @@ export default function ContactSection() {
                         justifyContent: 'center',
                         fontSize: '0.75rem',
                         color: '#666',
-                        marginTop: 2,
                       }}
                     >
                       {i + 1}

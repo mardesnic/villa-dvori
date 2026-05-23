@@ -12,7 +12,7 @@ const details = [
 
 export default function AccommodationSection() {
   return (
-    <section id='intro' className='container py-5'>
+    <section id='intro' className='container py-5' style={{ scrollMarginTop: 56 }}>
       <div className='row gy-4'>
         <div className='col-md-7'>
           <h1 className='mb-4' style={{ lineHeight: 1.3 }}>

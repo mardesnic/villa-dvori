@@ -83,7 +83,7 @@ export default function GalleryGrid({
             style={{ ...btnStyle, gridRow: '1 / 3', position: 'relative' }}
           >
             <Image
-              src={images[0].src}
+              src={images[0].thumb || images[0].src}
               alt={images[0].alt}
               fill
               style={{ objectFit: 'cover', transition: 'transform 0.4s' }}
@@ -97,7 +97,7 @@ export default function GalleryGrid({
             style={{ ...btnStyle, position: 'relative' }}
           >
             <Image
-              src={images[1].src}
+              src={images[1].thumb || images[1].src}
               alt={images[1].alt}
               fill
               style={{ objectFit: 'cover', transition: 'transform 0.4s' }}
@@ -114,7 +114,7 @@ export default function GalleryGrid({
               style={{ ...btnStyle, position: 'relative' }}
             >
               <Image
-                src={images[2].src}
+                src={images[2].thumb || images[2].src}
                 alt={images[2].alt}
                 fill
                 style={{ objectFit: 'cover', transition: 'transform 0.4s' }}
@@ -128,7 +128,7 @@ export default function GalleryGrid({
               style={{ ...btnStyle, position: 'relative' }}
             >
               <Image
-                src={images[3].src}
+                src={images[3].thumb || images[3].src}
                 alt={images[3].alt}
                 fill
                 style={{ objectFit: 'cover', transition: 'transform 0.4s' }}
@@ -167,7 +167,7 @@ export default function GalleryGrid({
                 }}
               >
                 <Image
-                  src={img.src}
+                  src={img.thumb || img.src}
                   alt={img.alt}
                   fill
                   style={{ objectFit: 'cover', transition: 'transform 0.4s' }}

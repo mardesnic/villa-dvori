@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import Link from 'next/link';
 
 export default function TeamSection() {
   return (
@@ -25,22 +24,19 @@ export default function TeamSection() {
           locally and are always on hand — for restaurant tips, boat taxis, or
           simply a warm welcome when you arrive.
         </p>
-        <Link href='/contact/' style={{ display: 'block' }}>
-          <Image
-            src='/images/family.jpg'
-            alt='Villa Dvori team — a family'
-            width={1000}
-            height={600}
-            priority
-            style={{
-              width: '100%',
-              height: 'auto',
-              maxWidth: 780,
-              margin: '0 auto',
-              display: 'block',
-            }}
-          />
-        </Link>
+        <Image
+          src='/images/family.jpg'
+          alt='Villa Dvori team — a family'
+          width={1000}
+          height={600}
+          style={{
+            width: '100%',
+            height: 'auto',
+            maxWidth: 780,
+            margin: '0 auto',
+            display: 'block',
+          }}
+        />
       </div>
     </section>
   );

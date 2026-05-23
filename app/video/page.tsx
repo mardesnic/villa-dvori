@@ -12,8 +12,7 @@ export default function VideoPage() {
   return (
     <main style={{ paddingTop: 56 }}>
       <VideoSection
-        heading='VIDEO TOUR'
-        subtitle='Villa Dvori & Podobuce, Pelješac'
+        heading='SEE IT FOR YOURSELF'
         headingAs='h1'
       />
 

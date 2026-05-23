@@ -7,7 +7,7 @@ interface Props {
 }
 
 export default function VideoSection({
-  heading = 'SEE IT FOR YOURSELF',
+  heading = 'VIDEO TOUR',
   subtitle,
   headingAs = 'h2',
 }: Props) {
@@ -61,16 +61,14 @@ export default function VideoSection({
           )}
         </div>
 
-        <div
-          className='ratio ratio-16x9 mx-auto'
-          style={{ maxWidth: 860, boxShadow: '0 20px 60px rgba(0,0,0,0.6)' }}
-        >
-          <iframe
-            src='https://www.youtube.com/embed/jYORvEwjUQQ'
-            title='Villa Dvori video tour'
-            allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
-            allowFullScreen
-          />
+        <div className='mx-auto' style={{ maxWidth: 860, boxShadow: '0 20px 60px rgba(0,0,0,0.6)' }}>
+          <video
+            controls
+            playsInline
+            style={{ width: '100%', display: 'block', aspectRatio: '16/9' }}
+          >
+            <source src='/videos/villa-dvori.mp4' type='video/mp4' />
+          </video>
         </div>
       </div>
     </section>

@@ -3,7 +3,6 @@ import AccommodationSection from '@/components/AccommodationSection';
 import GalleryGrid from '@/components/GalleryGrid';
 import LocationSection from '@/components/LocationSection';
 import TeamSection from '@/components/TeamSection';
-import VideoSection from '@/components/VideoSection';
 import ContactSection from '@/components/ContactSection';
 import { exteriorImages, interiorImages } from '@/data/images';
 
@@ -66,8 +65,6 @@ export default function Home() {
       <LocationSection />
 
       <TeamSection />
-
-      <VideoSection />
 
       <ContactSection />
     </main>
