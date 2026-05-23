@@ -12,14 +12,14 @@
   },
   "accommodation": {
     "heading": "VILLA DVORI",
-    "subheading": "Mediterranes Haus für 12 Personen",
-    "p1": "Möchten Sie den Meerblick aus einem beheizten Pool genießen, umgeben von wunderschönen mediterranen Gärten? Die Villa besteht aus drei Wohneinheiten, jede mit zwei Schlafzimmern, einem Badezimmer und einem Wohnzimmer. Außerdem gibt es eine geräumige und voll ausgestattete Küche mit eigenem Badezimmer.",
-    "p2": "Sie wurde mit dem Ziel entworfen, mehreren Familien einen idealen Raum zu bieten, um gemeinsam eine schöne Zeit zu verbringen und dabei die eigene Privatsphäre zu wahren. Alle Wohneinheiten sind mit Fernseher, WLAN und Klimaanlage ausgestattet.",
+    "subheading": "Mediterranes Ferienhaus für 12 Personen",
+    "p1": "Möchten Sie den Meerblick aus einem beheizten Pool genießen, umgeben von wunderschönen mediterranen Gärten? Die Villa besteht aus drei separaten Wohneinheiten, jeweils mit zwei Schlafzimmern, einem Badezimmer und einem Wohnbereich. Zudem verfügt die Villa über einen großzügigen, voll ausgestatteten Küchen- und Essbereich mit einem weiteren, eigenen Badezimmer.",
+    "p2": "Sie wurde mit dem Gedanken entworfen, mehreren Familien oder Freundesgruppen den idealen Raum für eine gemeinsame Zeit zu bieten, ohne dabei auf die eigene Privatsphäre verzichten zu müssen. Alle Wohneinheiten sind mit Fernseher, WLAN und Klimaanlage ausgestattet.",
     "detailsLabel": "Unterkunftsdetails",
     "details": {
-      "accommodates": "PERSONEN",
+      "accommodates": "MAX. PERSONEN",
       "rooms": "ZIMMER",
-      "beds": "KINGSIZE-BETTEN",
+      "beds": "DOPPELBETTEN (KINGSIZE)",
       "bathrooms": "BÄDER",
       "ac": "KLIMAANLAGE",
       "wifi": "WLAN",
@@ -35,20 +35,20 @@
   "location": {
     "heading": "LAGE",
     "subtitle": "Podobuče, Pelješac, Kroatien",
-    "description": "Podobuče ist ein ruhiges Fischerdorf auf der Halbinsel Pelješac — zwei Restaurants, kristallklares Wasser und ein entspanntes Lebenstempo. Von hier aus erreichen Sie die Insel Korčula per Boot, erkunden die Seen und Wälder von Mljet, kosten die berühmten Dingač-Weine der Halbinsel und fahren nach Dubrovnik für einen Tag in der Altstadt.",
+    "description": "Podobuče ist ein idyllisches, ruhiges Fischerdorf auf der Halbinsel Pelješac — mit zwei Restaurants, kristallklarem Wasser und einem herrlich entspannten Lebensstempo. Von hier aus können Sie die Insel Korčula bequem per Boot erreichen, die Seen und Wälder des Nationalparks Mljet erkunden, die berühmten Dingač-Weine der Region kosten oder einen Tagesausflug mit dem Auto nach Dubrovnik unternehmen, um die historische Altstadt zu entdecken.",
     "destinations": {
       "podobuce": { "name": "Podobuče", "sub": "Halbinsel Pelješac" },
       "korcula": { "name": "Insel Korčula", "sub": "30 Min. per Boot" },
-      "mljet": { "name": "Nationalpark Mljet", "sub": "1 Std. per Boot" },
+      "mljet": { "name": "NP Mljet", "sub": "1 Std. per Boot" },
       "dubrovnik": { "name": "Dubrovnik", "sub": "2 Std. mit dem Auto" }
     }
   },
   "team": {
     "label": "Ihre Gastgeber",
     "headingItalic": "Das Team der Villa Dvori,",
-    "headingStrong": "EINE FAMILIE",
-    "description": "Wir sind eine Familie aus Dubrovnik, die die Villa Dvori gebaut hat, um mehreren Familien einen idealen Ort für gemeinsame Ferien zu schaffen. Wir leben in der Nähe und sind immer für Sie da — für Restaurantempfehlungen, Bootstaxis oder einfach einen herzlichen Empfang bei Ihrer Ankunft.",
-    "imgAlt": "Das Team der Villa Dvori — eine Familie"
+    "headingStrong": "IHRE GASTGEBERFAMILIE",
+    "description": "Wir sind eine Familie aus Dubrovnik und haben die Villa Dvori erbaut, um den perfekten Ort für einen gemeinsamen Urlaub mehrerer Familien zu schaffen. Da wir ganz in der Nähe wohnen, sind wir jederzeit gerne für Sie da — ob für persönliche Restaurantempfehlungen, die Organisation eines Bootstaxis oder einfach für ein herzliches Willkommen bei Ihrer Ankunft.",
+    "imgAlt": "Das Team der Villa Dvori — Ihre Gastgeberfamilie"
   },
   "video": {
     "label": "Video-Tour"
@@ -56,53 +56,53 @@
   "contact": {
     "label": "Verfügbarkeit & Buchung",
     "heading": "KONTAKT",
-    "subtitle": "Senden Sie uns Ihre Anfrage und wir unterbreiten Ihnen gerne unser bestes Angebot",
+    "subtitle": "Senden Sie uns einfach Ihre Anfrage — wir erstellen gerne ein maßgeschneidertes Angebot für Sie",
     "airbnbText": "Auch verfügbar auf",
-    "rulesLabel": "Hausregeln",
+    "rulesLabel": "Hausordnung",
     "rules": [
-      "Die Villa Dvori wird ausschließlich als Ganzes vermietet.",
+      "Die Villa Dvori wird ausschließlich als gesamte Einheit vermietet.",
       "Der Mindestaufenthalt in der Villa Dvori beträgt 7 Nächte.",
-      "Die Villa Dvori wird von Samstag bis Samstag vermietet.",
-      "Die Villa Dvori wird für maximal 12 Personen vermietet, Kinder und Säuglinge eingeschlossen.",
-      "Die Reservierungsgebühr beträgt 25 % des Gesamtmietpreises.",
-      "Check-in nach 16:00 Uhr, Check-out vor 10:00 Uhr."
+      "Die Vermietung der Villa Dvori erfolgt wochenweise von Samstag bis Samstag.",
+      "Die Villa ist für maximal 12 Personen zugelassen (einschließlich Kindern und Babys).",
+      "Die Anzahlung bei Buchung beträgt 25 % des Gesamtmietpreises.",
+      "Der Check-in ist ab 16:00 Uhr möglich, der Check-out erfolgt bis 10:00 Uhr."
     ]
   },
   "pages": {
     "home": {
-      "title": "Villa Dvori | Mediterranes Haus für 12 | Pelješac, Kroatien",
-      "description": "Villa Dvori — Luxus-Ferienhaus in Podobuče, Pelješac, Kroatien. Beheizter Pool, mediterrane Gärten, Meerblick. Für bis zu 12 Gäste.",
+      "title": "Villa Dvori | Mediterranes Ferienhaus für 12 Personen | Pelješac, Kroatien",
+      "description": "Villa Dvori — Luxus-Ferienhaus in Podobuče, Pelješac, Kroatien. Beheizter Pool, mediterrane Gärten, Meerblick. Für bis zu 12 Personen.",
       "exteriorTitle": "Außenbereich",
-      "exteriorSubtitle": "Gärten, Pool, Terrassen und Blick auf die Adria",
+      "exteriorSubtitle": "Gärten, Pool, Terrassen und Panoramablick auf die Adria",
       "interiorTitle": "Innenbereich",
-      "interiorSubtitle": "Schlafzimmer, Wohnräume und voll ausgestattete Küche"
+      "interiorSubtitle": "Schlafzimmer, gemütliche Wohnräume und voll ausgestattete Küche"
     },
     "gallery": {
-      "title": "Galerie | Villa Dvori — Pelješac, Kroatien",
-      "description": "Alle Fotos der Villa Dvori — Pool, Gärten, Terrassen, Schlafzimmer, Küche und atemberaubender Meerblick in Podobuče, Pelješac.",
+      "title": "Fotogalerie | Villa Dvori — Pelješac, Kroatien",
+      "description": "Entdecken Sie alle Fotos der Villa Dvori — beheizter Pool, Gärten, Terrassen, Schlafzimmer, Küche und traumhafter Meerblick in Podobuče.",
       "heading": "GALERIE",
-      "subtitle": "Steinmauern, beheizter Pool und mediterrane Gärten",
+      "subtitle": "Authentische Steinmauern, beheizter Pool und mediterrane Gartenlandschaft",
       "exteriorTitle": "Außenbereich",
-      "exteriorSubtitle": "Gärten, Pool, Terrassen und Blick auf die Adria",
+      "exteriorSubtitle": "Gärten, Pool, Terrassen und Panoramablick auf die Adria",
       "interiorTitle": "Innenbereich",
-      "interiorSubtitle": "Schlafzimmer, Wohnräume und voll ausgestattete Küche",
+      "interiorSubtitle": "Schlafzimmer, gemütliche Wohnräume und voll ausgestattete Küche",
       "allPhotosTitle": "Alle Fotos",
       "imgAlt": "Pool der Villa Dvori"
     },
     "location": {
-      "title": "Lage | Villa Dvori — Pelješac, Kroatien",
+      "title": "Lage & Anreise | Villa Dvori — Pelješac, Kroatien",
       "description": "Die Villa Dvori befindet sich in Podobuče, einem ruhigen Fischerdorf auf der Halbinsel Pelješac. Entdecken Sie das nahe gelegene Korčula, Mljet und Dubrovnik."
     },
     "video": {
       "title": "Video-Tour | Villa Dvori — Pelješac, Kroatien",
-      "description": "Sehen Sie sich die Video-Tour der Villa Dvori in Podobuče, Pelješac, Kroatien an. Pool, Gärten, Terrassen und atemberaubender Blick auf die Adria.",
-      "heading": "ÜBERZEUGEN SIE SICH SELBST"
+      "description": "Erleben Sie die Villa Dvori in Podobuče auf der Halbinsel Pelješac in unserer Video-Tour. Entdecken Sie den Pool, die Gärten und den traumhaften Adria-Blick.",
+      "heading": "MACHEN SIE SICH SELBST EIN BILD"
     },
     "contact": {
-      "title": "Kontakt | Villa Dvori — Pelješac, Kroatien",
-      "description": "Kontaktieren Sie die Villa Dvori, um die Verfügbarkeit zu prüfen und ein Angebot zu erhalten. Wir helfen Ihnen gerne bei der Planung Ihres kroatischen Urlaubs.",
+      "title": "Kontakt & Buchung | Villa Dvori — Pelješac, Kroatien",
+      "description": "Kontaktieren Sie die Villa Dvori, um die Verfügbarkeit zu prüfen und ein Angebot anzufordern. Wir freuen uns, Ihren Traumurlaub in Kroatien zu planen.",
       "heading": "NEHMEN SIE KONTAKT AUF",
-      "subtitle": "Wir würden Sie gerne willkommen heißen"
+      "subtitle": "Wir freuen uns darauf, Sie als Gäste zu begrüßen"
     }
   }
 }

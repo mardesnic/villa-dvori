@@ -13,13 +13,13 @@
   "accommodation": {
     "heading": "VILLA DVORI",
     "subheading": "Středomořský dům pro 12 osob",
-    "p1": "Chcete si užívat výhled na moře z vyhřívaného bazénu obklopeného krásnými středomořskými zahradami? Villa se skládá ze tří bytových jednotek, každá se dvěma ložnicemi, koupelnou a obývacím pokojem. Součástí je také prostorná a plně vybavená kuchyně/jídelna s vlastní koupelnou.",
-    "p2": "Byla navržena tak, aby poskytovala ideální prostor pro více rodin, které chtějí trávit čas společně a přitom si zachovat soukromí. Všechny bytové jednotky jsou vybaveny televizí, Wi-Fi a klimatizací.",
+    "p1": "Chcete si užívat výhled na moře z vyhřívaného bazénu obklopeného krásnými středomořskými zahradami? Vila se skládá ze tří nezávislých bytových jednotek, z nichž každá má dvě ložnice, koupelnu a obývací pokoj. Součástí je také prostorná a plně vybavená kuchyně s jídelnou a vlastní koupelnou.",
+    "p2": "Dům byl navržen tak, aby poskytoval ideální prostor pro více rodin, které chtějí trávit čas společně, ale zároveň si zachovat soukromí. Všechny jednotky jsou vybaveny televizí, Wi-Fi a klimatizací.",
     "detailsLabel": "Podrobnosti ubytování",
     "details": {
       "accommodates": "KAPACITA",
       "rooms": "POKOJE",
-      "beds": "KING POSTELE",
+      "beds": "MANŽELSKÉ POSTELE (KING SIZE)",
       "bathrooms": "KOUPELNY",
       "ac": "KLIMATIZACE",
       "wifi": "WI-FI",
@@ -35,74 +35,74 @@
   "location": {
     "heading": "POLOHA",
     "subtitle": "Podobuče, Pelješac, Chorvatsko",
-    "description": "Podobuče je klidná rybářská vesnice na poloostrově Pelješac — dvě restaurace, křišťálově čistá voda a pomalé tempo života. Odtud se dostanete lodí na ostrov Korčula, prozkoumáte jezera a lesy Mljetu, ochutnáte slavná vína Dingač z poloostrova a autem dojedete do Dubrovníku na den ve starém městě.",
+    "description": "Podobuče je klidná rybářská vesnice na poloostrově Pelješac — nabízí dvě restaurace, křišťálově čistou vodu a pohodové tempo života. Odtud se snadno dostanete lodí na ostrov Korčula, prozkoumáte jezera a lesy na Mljetu, ochutnáte slavná pelješacká vína Dingač nebo zajedete autem do Dubrovníku na prohlídku historického starého města.",
     "destinations": {
       "podobuce": { "name": "Podobuče", "sub": "Poloostrov Pelješac" },
       "korcula": { "name": "Ostrov Korčula", "sub": "30 min lodí" },
-      "mljet": { "name": "Národní park Mljet", "sub": "1 hod. lodí" },
+      "mljet": { "name": "NP Mljet", "sub": "1 hod. lodí" },
       "dubrovnik": { "name": "Dubrovník", "sub": "2 hod. autem" }
     }
   },
   "team": {
-    "label": "Vaši Hostitelé",
+    "label": "Vaši hostitelé",
     "headingItalic": "Tým Villy Dvori,",
     "headingStrong": "RODINA",
-    "description": "Jsme rodina z Dubrovníku, která postavila Villu Dvori, aby vytvořila ideální prostor pro více rodin na společnou dovolenou. Žijeme v blízkosti a jsme vždy k dispozici — poradíme s restauracemi, zajistíme lodní taxi nebo vás prostě srdečně přivítáme při příjezdu.",
+    "description": "Jsme rodina z Dubrovníku, která postavila Villu Dvori s cílem vytvořit dokonalé místo pro společnou dovolenou více rodin. Žijeme poblíž a jsme vám vždy k dispozici — rádi doporučíme restauraci, zajistíme lodní taxi nebo vás prostě jen srdečně přivítáme při příjezdu.",
     "imgAlt": "Tým Villy Dvori — rodina"
   },
   "video": {
-    "label": "Video Prohlídka"
+    "label": "Video prohlídka"
   },
   "contact": {
-    "label": "Dostupnost a Rezervace",
+    "label": "Dostupnost a rezervace",
     "heading": "KONTAKTUJTE NÁS",
-    "subtitle": "Zašlete nám svůj požadavek a rádi vám předložíme naši nejlepší nabídku",
-    "airbnbText": "K dispozici také na",
+    "subtitle": "Zašlete nám svůj dotaz a my vám rádi připravíme naši nejlepší nabídku na míru",
+    "airbnbText": "K dispozici také na platformě",
     "rulesLabel": "Domovní řád",
     "rules": [
-      "Villa Dvori se pronajímá výhradně jako celek.",
-      "Minimální délka pobytu ve Ville Dvori je 7 nocí.",
-      "Villa Dvori se pronajímá od soboty do soboty.",
-      "Villa Dvori se pronajímá pro maximálně 12 osob, včetně dětí a kojenců.",
-      "Rezervační poplatek činí 25 % z celkové ceny pronájmu.",
-      "Příjezd po 16:00, odjezd před 10:00."
+      "Villa Dvori se pronajímá pouze jako celý objekt.",
+      "Minimální délka pobytu je 7 nocí.",
+      "Villa Dvori se pronajímá v cyklech od soboty do soboty.",
+      "Maximální kapacita je 12 osob, včetně dětí a kojenců.",
+      "Záloha při rezervaci činí 25 % z celkové ceny pronájmu.",
+      "Příjezd je možný po 16:00, odjezd do 10:00."
     ]
   },
   "pages": {
     "home": {
-      "title": "Villa Dvori | Středomořský Dům pro 12 | Pelješac, Chorvatsko",
-      "description": "Villa Dvori — luxusní prázdninová villa v Podobučích, Pelješac, Chorvatsko. Vyhřívaný bazén, středomořské zahrady, výhled na moře. Až pro 12 hostů.",
+      "title": "Villa Dvori | Středomořský dům pro 12 osob | Pelješac, Chorvatsko",
+      "description": "Villa Dvori — luxusní prázdninová vila v letovisku Podobuče na poloostrově Pelješac. Vyhřívaný bazén, středomořské zahrady, výhled na moře. Kapacita 12 hostů.",
       "exteriorTitle": "Exteriér",
-      "exteriorSubtitle": "Zahrady, bazén, terasy a výhledy na Jadran",
+      "exteriorSubtitle": "Zahrady, bazén, terasy a panoramatický výhled na Jadran",
       "interiorTitle": "Interiér",
       "interiorSubtitle": "Ložnice, obývací prostory a plně vybavená kuchyně"
     },
     "gallery": {
-      "title": "Galerie | Villa Dvori — Pelješac, Chorvatsko",
-      "description": "Prohlédněte si všechny fotografie Villy Dvori — bazén, zahrady, terasy, ložnice, kuchyně a úžasný výhled na moře v Podobučích, Pelješac.",
+      "title": "Fotogalerie | Villa Dvori — Pelješac, Chorvatsko",
+      "description": "Prohlédněte si fotografie Villy Dvori — vyhřívaný bazén, zahrady, terasy, ložnice, kuchyně a úžasný výhled na moře v Podobuče.",
       "heading": "GALERIE",
-      "subtitle": "Kamenné zdi, vyhřívaný bazén a středomořské zahrady",
+      "subtitle": "Kamenné zdi, vyhřívaný bazén a středomořská vegetace",
       "exteriorTitle": "Exteriér",
-      "exteriorSubtitle": "Zahrady, bazén, terasy a výhledy na Jadran",
+      "exteriorSubtitle": "Zahrady, bazén, terasy a panoramatický výhled na Jadran",
       "interiorTitle": "Interiér",
       "interiorSubtitle": "Ložnice, obývací prostory a plně vybavená kuchyně",
       "allPhotosTitle": "Všechny fotografie",
       "imgAlt": "Bazén Villy Dvori"
     },
     "location": {
-      "title": "Poloha | Villa Dvori — Pelješac, Chorvatsko",
-      "description": "Villa Dvori se nachází v Podobučích, klidné rybářské vesnici na poloostrově Pelješac. Prozkoumejte blízkou Korčulu, Mljet a Dubrovník."
+      "title": "Poloha a doprava | Villa Dvori — Pelješac, Chorvatsko",
+      "description": "Villa Dvori se nachází v Podobuče, klidné rybářské vesnici na poloostrově Pelješac. Objevte blízkou Korčulu, Mljet a Dubrovník."
     },
     "video": {
-      "title": "Video Prohlídka | Villa Dvori — Pelješac, Chorvatsko",
-      "description": "Podívejte se na video prohlídku Villy Dvori v Podobučích, Pelješac, Chorvatsko. Prohlédněte bazén, zahrady, terasy a nádherný výhled na Jadranské moře.",
+      "title": "Video prohlídka | Villa Dvori — Pelješac, Chorvatsko",
+      "description": "Podívejte se na video prohlídku Villy Dvori v Podobuče na Pelješacu. Prohlédněte si bazén, zahrady, terasy a nádherný výhled na moře.",
       "heading": "PŘESVĚDČTE SE SAMI"
     },
     "contact": {
-      "title": "Kontakt | Villa Dvori — Pelješac, Chorvatsko",
-      "description": "Kontaktujte Villu Dvori pro ověření dostupnosti a získání cenové nabídky. Rádi vám pomůžeme naplánovat dokonalou dovolenou v Chorvatsku.",
+      "title": "Kontakt a rezervace | Villa Dvori — Pelješac, Chorvatsko",
+      "description": "Kontaktujte Villu Dvori pro ověření dostupnosti a získání nabíd```ky. Rádi vám pomůžeme naplánovat vaši vysněnou dovolenou v Chorvatsku.",
       "heading": "SPOJTE SE S NÁMI",
-      "subtitle": "Rádi vás přivítáme"
+      "subtitle": "Těšíme se na vaši návštěvu"
     }
   }
 }
