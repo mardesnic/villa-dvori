@@ -1,15 +1,18 @@
 import Image from 'next/image';
+import { getTranslations } from 'next-intl/server';
 
-export default function TeamSection() {
+export default async function TeamSection() {
+  const t = await getTranslations('team');
+
   return (
     <section style={{ background: '#fff' }}>
       <div className='container py-5 text-center'>
-        <p className='section-label mb-3'>Your Hosts</p>
+        <p className='section-label mb-3'>{t('label')}</p>
         <h2 className='mb-3' style={{ lineHeight: 1.3 }}>
           <span className='font-garamond' style={{ fontStyle: 'italic' }}>
-            Villa Dvori team,{' '}
+            {t('headingItalic')}{' '}
           </span>
-          A FAMILY
+          {t('headingStrong')}
         </h2>
         <p
           style={{
@@ -19,14 +22,11 @@ export default function TeamSection() {
             margin: '0 auto 2.5rem',
           }}
         >
-          We are a family from Dubrovnik who built Villa Dvori to create the
-          perfect space for multiple families to holiday together. We live
-          locally and are always on hand — for restaurant tips, boat taxis, or
-          simply a warm welcome when you arrive.
+          {t('description')}
         </p>
         <Image
           src='/images/family.jpg'
-          alt='Villa Dvori team — a family'
+          alt={t('imgAlt')}
           width={1000}
           height={600}
           style={{

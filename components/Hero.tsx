@@ -1,13 +1,16 @@
 'use client';
 
 import Image from 'next/image';
+import { useTranslations } from 'next-intl';
+import { Link } from '@/i18n/navigation';
 
 export default function Hero() {
+  const t = useTranslations('hero');
+
   return (
     <section
       style={{ marginTop: 56, position: 'relative', overflow: 'hidden' }}
     >
-      {/* Blurred background to fill side bars */}
       <Image
         src='/images/hero.webp'
         alt=''
@@ -30,13 +33,12 @@ export default function Hero() {
       >
         <Image
           src='/images/hero.webp'
-          alt='Villa Dvori aerial view'
+          alt={t('imgAlt')}
           width={1200}
           height={800}
           style={{ width: '100%', height: 'auto', display: 'block' }}
           priority
         />
-        {/* Overlay */}
         <div
           style={{
             position: 'absolute',
@@ -60,13 +62,13 @@ export default function Hero() {
             }}
             priority
           />
-          <a
-            href='#intro'
+          <Link
+            href='/#intro'
             className='btn-villa-outline-light'
             style={{ textDecoration: 'none' }}
           >
-            LEARN MORE
-          </a>
+            {t('learnMore')}
+          </Link>
         </div>
       </div>
     </section>

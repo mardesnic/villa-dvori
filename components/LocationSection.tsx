@@ -1,61 +1,42 @@
 import Image from 'next/image';
+import { getTranslations } from 'next-intl/server';
 
-const destinations = [
-  {
-    img: '/images/location/podobuce.webp',
-    name: 'Podobuče',
-    sub: 'Pelješac Peninsula',
-  },
-  {
-    img: '/images/location/korcula.webp',
-    name: 'Korčula Island',
-    sub: '30 min by boat',
-  },
-  {
-    img: '/images/location/mljet.webp',
-    name: 'Mljet National Park',
-    sub: '1 hr by boat',
-  },
-  {
-    img: '/images/location/dubrovnik.webp',
-    name: 'Dubrovnik',
-    sub: '2 hrs by car',
-  },
-];
+const destinationKeys = ['podobuce', 'korcula', 'mljet', 'dubrovnik'] as const;
+const destinationImgs: Record<(typeof destinationKeys)[number], string> = {
+  podobuce: '/images/location/podobuce.webp',
+  korcula: '/images/location/korcula.webp',
+  mljet: '/images/location/mljet.webp',
+  dubrovnik: '/images/location/dubrovnik.webp',
+};
 
-export default function LocationSection() {
+export default async function LocationSection() {
+  const t = await getTranslations('location');
+
   return (
     <section style={{ background: '#f8f7f5' }}>
-      {/* Text block */}
       <div className='container py-5'>
         <div className='row justify-content-center'>
           <div className='col-lg-7 text-center'>
             <h2 className='mb-1' style={{ letterSpacing: '0.08em' }}>
-              LOCATION
+              {t('heading')}
             </h2>
             <p
               className='font-garamond mb-4'
               style={{ fontStyle: 'italic', fontSize: '1.3rem', color: '#666' }}
             >
-              Podobuce, Pelješac, Croatia
+              {t('subtitle')}
             </p>
             <p style={{ lineHeight: 1.9, color: '#444' }}>
-              Podobuce is a quiet fishermen&apos;s village on the Pelješac
-              peninsula — two restaurants, crystal-clear water, and an unhurried
-              pace of life. From here you can reach Korčula island by boat taxi,
-              explore Mljet&apos;s lakes and forests, taste the peninsula&apos;s
-              famous Dingač wines, and drive to Dubrovnik for a day in the old
-              city.
+              {t('description')}
             </p>
           </div>
         </div>
       </div>
 
-      {/* Photo destination cards */}
       <div className='container-fluid px-0 pb-0'>
         <div className='row g-0'>
-          {destinations.map(({ img, name, sub }) => (
-            <div key={name} className='col-6 col-md-3'>
+          {destinationKeys.map(key => (
+            <div key={key} className='col-6 col-md-3'>
               <div
                 style={{
                   position: 'relative',
@@ -64,12 +45,11 @@ export default function LocationSection() {
                 }}
               >
                 <Image
-                  src={img}
-                  alt={name}
+                  src={destinationImgs[key]}
+                  alt={t(`destinations.${key}.name` as Parameters<typeof t>[0])}
                   fill
                   style={{ objectFit: 'cover' }}
                 />
-                {/* Gradient overlay */}
                 <div
                   style={{
                     position: 'absolute',
@@ -93,7 +73,7 @@ export default function LocationSection() {
                     className='fw-semibold'
                     style={{ fontSize: '1.1rem', letterSpacing: '0.04em' }}
                   >
-                    {name}
+                    {t(`destinations.${key}.name` as Parameters<typeof t>[0])}
                   </div>
                   <div
                     className='font-garamond'
@@ -103,7 +83,7 @@ export default function LocationSection() {
                       color: 'rgba(255,255,255,0.8)',
                     }}
                   >
-                    {sub}
+                    {t(`destinations.${key}.sub` as Parameters<typeof t>[0])}
                   </div>
                 </div>
               </div>
@@ -112,7 +92,6 @@ export default function LocationSection() {
         </div>
       </div>
 
-      {/* Map */}
       <iframe
         src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d375604.40992908017!2d17.806227972055552!3d42.652677897418094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134a52c984316863%3A0xd2460ccf4935ea8e!2sVilla+Dvori!5e0!3m2!1sen!2shr!4v1502970605959'
         width='100%'

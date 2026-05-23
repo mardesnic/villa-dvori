@@ -1,27 +1,51 @@
 'use client';
 
-import { useState } from 'react';
-import Link from 'next/link';
-import { usePathname } from 'next/navigation';
+import { useState, useRef, useEffect } from 'react';
+import { useTranslations, useLocale } from 'next-intl';
+import { Link, usePathname, useRouter } from '@/i18n/navigation';
+import { LOCALES } from '@/lib/locales';
 
-const links = [
-  { href: '/', label: 'HOME' },
-  { href: '/photo/', label: 'GALLERY' },
-  { href: '/location/', label: 'LOCATION' },
-  { href: '/video/', label: 'VIDEO' },
-  { href: '/contact/', label: 'BOOK NOW' },
+const navKeys = [
+  { href: '/' as const, key: 'home' },
+  { href: '/photo' as const, key: 'gallery' },
+  { href: '/location' as const, key: 'location' },
+  { href: '/video' as const, key: 'video' },
+  { href: '/contact' as const, key: 'bookNow' },
 ];
 
 export default function Navigation() {
   const [open, setOpen] = useState(false);
+  const [langOpen, setLangOpen] = useState(false);
+  const langRef = useRef<HTMLDivElement>(null);
   const pathname = usePathname();
+  const locale = useLocale();
+  const router = useRouter();
+  const t = useTranslations('nav');
+
+  const current = LOCALES.find(l => l.code === locale) ?? LOCALES[0];
 
   const isActive = (href: string) =>
     href === '/' ? pathname === '/' : pathname.startsWith(href);
 
+  const switchLocale = (next: string) => {
+    router.replace(pathname, { locale: next });
+    setLangOpen(false);
+    setOpen(false);
+  };
+
+  useEffect(() => {
+    const handler = (e: MouseEvent) => {
+      if (langRef.current && !langRef.current.contains(e.target as Node)) {
+        setLangOpen(false);
+      }
+    };
+    document.addEventListener('mousedown', handler);
+    return () => document.removeEventListener('mousedown', handler);
+  }, []);
+
   return (
     <nav
-      className='navbar navbar-expand-sm bg-white fixed-top'
+      className='navbar navbar-expand-lg bg-white fixed-top'
       style={{ minHeight: 56, borderBottom: '1px solid #e0ddd8' }}
     >
       <div className='container-fluid px-4'>
@@ -46,8 +70,8 @@ export default function Navigation() {
         </button>
 
         <div className={`navbar-collapse collapse ${open ? 'show' : ''}`}>
-          <ul className='navbar-nav ms-auto mb-2 mb-sm-0 gap-1'>
-            {links.map(({ href, label }) => {
+          <ul className='navbar-nav ms-auto mb-2 mb-lg-0 gap-1'>
+            {navKeys.map(({ href, key }) => {
               const active = isActive(href);
               return (
                 <li className='nav-item' key={href}>
@@ -64,7 +88,7 @@ export default function Navigation() {
                       transition: 'color 0.15s',
                     }}
                   >
-                    {label}
+                    {t(key)}
                     {active && (
                       <span
                         className='nav-active-bar'
@@ -84,6 +108,74 @@ export default function Navigation() {
               );
             })}
           </ul>
+
+          {/* Mobile: inline flags row */}
+          <div className='d-flex d-lg-none flex-wrap gap-1 py-2'>
+            {LOCALES.map(({ code, flag, label }) => (
+              <button
+                key={code}
+                onClick={() => switchLocale(code)}
+                title={label}
+                style={{
+                  background: code === locale ? 'rgba(0,0,0,0.06)' : 'none',
+                  border: 'none',
+                  borderRadius: 4,
+                  padding: '4px 5px',
+                  cursor: code === locale ? 'default' : 'pointer',
+                }}
+              >
+                <img src={flag} alt={label} width={20} height={15} style={{ display: 'block', opacity: code === locale ? 1 : 0.55 }} />
+              </button>
+            ))}
+          </div>
+
+          {/* Desktop: dropdown */}
+          <div ref={langRef} className='d-none d-lg-block ms-lg-3' style={{ position: 'relative' }}>
+            <button
+              onClick={() => setLangOpen(o => !o)}
+              aria-label='Select language'
+              style={{
+                background: 'none',
+                border: 'none',
+                borderRadius: 4,
+                padding: '4px 8px',
+                cursor: 'pointer',
+                display: 'flex',
+                alignItems: 'center',
+                gap: 6,
+              }}
+            >
+              <img src={current.flag} alt={current.label} width={20} height={15} style={{ display: 'block' }} />
+            </button>
+
+            {langOpen && (
+              <div className='lang-dropdown'>
+                {LOCALES.map(({ code, flag, label }) => (
+                  <button
+                    key={code}
+                    onClick={() => switchLocale(code)}
+                    style={{
+                      display: 'flex',
+                      alignItems: 'center',
+                      gap: 8,
+                      width: '100%',
+                      background: code === locale ? '#f8f7f5' : 'none',
+                      border: 'none',
+                      padding: '6px 12px',
+                      cursor: 'pointer',
+                      fontSize: '0.78rem',
+                      letterSpacing: '0.04em',
+                      color: '#333',
+                      textAlign: 'left',
+                    }}
+                  >
+                    <img src={flag} alt='' width={20} height={15} style={{ display: 'block', flexShrink: 0 }} />
+                    {label}
+                  </button>
+                ))}
+              </div>
+            )}
+          </div>
         </div>
       </div>
     </nav>

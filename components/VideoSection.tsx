@@ -1,17 +1,19 @@
 import Image from 'next/image';
+import { getTranslations } from 'next-intl/server';
 
 interface Props {
   heading?: string;
-  subtitle?: string;
   headingAs?: 'h1' | 'h2';
 }
 
-export default function VideoSection({
-  heading = 'VIDEO TOUR',
-  subtitle,
+export default async function VideoSection({
+  heading,
   headingAs = 'h2',
 }: Props) {
+  const t = await getTranslations('video');
   const Heading = headingAs;
+  const title = heading ?? t('label');
+
   return (
     <section
       style={{ position: 'relative', background: '#0a0a0a', overflow: 'hidden' }}
@@ -34,31 +36,17 @@ export default function VideoSection({
             className='section-label mb-2'
             style={{ color: 'rgba(255,255,255,0.5)' }}
           >
-            Video Tour
+            {t('label')}
           </p>
           <Heading
             style={{
               color: '#fff',
               letterSpacing: '0.1em',
               fontSize: 'clamp(1.4rem, 3vw, 2rem)',
-              marginBottom: subtitle ? '0.5rem' : 0,
             }}
           >
-            {heading}
+            {title}
           </Heading>
-          {subtitle && (
-            <p
-              className='font-garamond'
-              style={{
-                color: 'rgba(255,255,255,0.7)',
-                fontStyle: 'italic',
-                fontSize: '1.2rem',
-                margin: 0,
-              }}
-            >
-              {subtitle}
-            </p>
-          )}
         </div>
 
         <div className='mx-auto' style={{ maxWidth: 860, boxShadow: '0 20px 60px rgba(0,0,0,0.6)' }}>

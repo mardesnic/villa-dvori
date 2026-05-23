@@ -1,0 +1,108 @@
+{
+  "nav": {
+    "home": "POČETNA",
+    "gallery": "GALERIJA",
+    "location": "LOKACIJA",
+    "video": "VIDEO TURA",
+    "bookNow": "REZERVIRAJTE"
+  },
+  "hero": {
+    "learnMore": "SAZNAJTE VIŠE",
+    "imgAlt": "Villa Dvori pogled iz zraka"
+  },
+  "accommodation": {
+    "heading": "VILLA DVORI",
+    "subheading": "Mediteranska kuća za 12 osoba",
+    "p1": "Želite li uživati u pogledu na more iz grijanog bazena okruženog predivnim mediteranskim vrtovima? Villa se sastoji od tri stambene jedinice, svaka s dvije spavaće sobe, kupaonicom i dnevnim boravkom. Villa također ima prostrani i potpuno opremljeni prostor kuhinje/blagovaonice s vlastitom kupaonicom.",
+    "p2": "Izgrađena je s idejom da se stvori savršen prostor za više obitelji koje žele provesti lijepo vrijeme zajedno, uz zadržavanje osobnog prostora. Sve stambene jedinice imaju televizor, WiFi i klimatizacijski uređaj.",
+    "detailsLabel": "Detalji smještaja",
+    "details": {
+      "accommodates": "KAPACITET",
+      "rooms": "SOBE",
+      "beds": "KING KREVETI",
+      "bathrooms": "KUPAONICE",
+      "ac": "KLIMA",
+      "wifi": "WIFI",
+      "minStay": "MIN. BORAVAK",
+      "arrival": "DOLAZAK",
+      "area": "POVRŠINA"
+    },
+    "values": {
+      "minStay": "7 dana",
+      "arrival": "Subota"
+    }
+  },
+  "location": {
+    "heading": "LOKACIJA",
+    "subtitle": "Podobuče, Pelješac, Hrvatska",
+    "description": "Podobuče je mirno ribarsko selo na poluotoku Pelješcu — dva restorana, kristalno čisto more i opušten tempo života. Odavde možete brodom stići do otoka Korčule, istražiti jezera i šume Mljeta, kušati čuvena pelješka vina Dingač te automobilom otputovati u Dubrovnik na dan u staroj gradskoj jezgri.",
+    "destinations": {
+      "podobuce": { "name": "Podobuče", "sub": "Poluotok Pelješac" },
+      "korcula": { "name": "Otok Korčula", "sub": "30 min brodom" },
+      "mljet": { "name": "NP Mljet", "sub": "1 sat brodom" },
+      "dubrovnik": { "name": "Dubrovnik", "sub": "2 sata autom" }
+    }
+  },
+  "team": {
+    "label": "Vaši domaćini",
+    "headingItalic": "Tim Ville Dvori,",
+    "headingStrong": "OBITELJ",
+    "description": "Mi smo obitelj iz Dubrovnika koja je izgradila Villu Dvori kako bi stvorila savršen prostor za više obitelji da zajedno ljetuju. Živimo u blizini i uvijek smo dostupni — za preporuke restorana, brodske taksije ili jednostavno toplu dobrodošlicu kad stignete.",
+    "imgAlt": "Tim Ville Dvori — obitelj"
+  },
+  "video": {
+    "label": "Video Tura"
+  },
+  "contact": {
+    "label": "Dostupnost i rezervacije",
+    "heading": "KONTAKTIRAJTE NAS",
+    "subtitle": "Pošaljite nam upit i bit ćemo vam drago ponuditi našu najbolju ponudu",
+    "airbnbText": "Dostupno i na",
+    "rulesLabel": "Kućni red",
+    "rules": [
+      "Villa Dvori iznajmljuje se isključivo kao cjelina.",
+      "Minimalni boravak u Villi Dvori je 7 noći.",
+      "Villa Dvori iznajmljuje se od subote do subote.",
+      "Villa Dvori iznajmljuje se za najviše 12 osoba, uključujući djecu i dojenčad.",
+      "Predujam iznosi 25% ukupne cijene najma.",
+      "Prijava je nakon 16:00, odjava prije 10:00."
+    ]
+  },
+  "pages": {
+    "home": {
+      "title": "Villa Dvori | Mediteranska kuća za 12 | Pelješac, Hrvatska",
+      "description": "Villa Dvori — luksuzna villa za odmor u Podobučama, Pelješac, Hrvatska. Grijani bazen, mediteranski vrtovi, pogled na more. Do 12 gostiju.",
+      "exteriorTitle": "Vanjski prostori",
+      "exteriorSubtitle": "Vrtovi, bazen, terase i pogled na Jadran",
+      "interiorTitle": "Unutarnji prostori",
+      "interiorSubtitle": "Spavaće sobe, dnevni prostori i potpuno opremljena kuhinja"
+    },
+    "gallery": {
+      "title": "Galerija | Villa Dvori — Pelješac, Hrvatska",
+      "description": "Pregledajte sve fotografije Ville Dvori — bazen, vrtovi, terase, spavaće sobe, kuhinja i predivan pogled na more u Podobučama, Pelješac.",
+      "heading": "GALERIJA",
+      "subtitle": "Kameni zidovi, grijani bazen i mediteranski vrtovi",
+      "exteriorTitle": "Vanjski prostori",
+      "exteriorSubtitle": "Vrtovi, bazen, terase i pogled na Jadran",
+      "interiorTitle": "Unutarnji prostori",
+      "interiorSubtitle": "Spavaće sobe, dnevni prostori i potpuno opremljena kuhinja",
+      "allPhotosTitle": "Sve fotografije",
+      "imgAlt": "Bazen Ville Dvori"
+    },
+    "location": {
+      "title": "Lokacija | Villa Dvori — Pelješac, Hrvatska",
+      "description": "Villa Dvori smještena je u Podobučama, mirnom ribarskom selu na poluotoku Pelješcu. Istražite obližnje Korčulu, Mljet i Dubrovnik."
+    },
+    "video": {
+      "title": "Video Tura | Villa Dvori — Pelješac, Hrvatska",
+      "description": "Pogledajte video turu Ville Dvori u Podobučama, Pelješac, Hrvatska. Pogledajte bazen, vrtove, terase i predivni pogled na Jadransko more.",
+      "heading": "POGLEDAJTE SAMI"
+    },
+    "contact": {
+      "title": "Kontakt | Villa Dvori — Pelješac, Hrvatska",
+      "description": "Kontaktirajte Villu Dvori za provjeru dostupnosti i dobivanje ponude. Rado ćemo vam pomoći planirati savršen odmor u Hrvatskoj.",
+      "heading": "STUPITE U KONTAKT",
+      "subtitle": "Rado bismo vas ugostili"
+    }
+  }
+}

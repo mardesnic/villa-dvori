@@ -1,20 +1,15 @@
-const rules = [
-  'Villa Dvori is only rented as a whole unit.',
-  'Villa Dvori minimum stay is 7 nights.',
-  'Villa Dvori is only rented from Saturdays to Saturdays.',
-  'Villa Dvori is only rented for up to 12 persons, infants and children included.',
-  'Reservation fee is 25% of the full renting price.',
-  'Check in is after 16:00, check out before 10:00.',
-];
+import { getTranslations } from 'next-intl/server';
 
-export default function ContactSection() {
+export default async function ContactSection() {
+  const t = await getTranslations('contact');
+  const rules = t.raw('rules') as string[];
+
   return (
     <section id='contact' style={{ background: '#e8e6e2' }}>
       <div className='container py-5'>
-        {/* Top contact block */}
         <div className='row justify-content-center mb-5'>
           <div className='col-lg-6 text-center'>
-            <p className='section-label mb-2'>Availability &amp; Booking</p>
+            <p className='section-label mb-2'>{t('label')}</p>
             <h2
               className='mb-1'
               style={{
@@ -22,7 +17,7 @@ export default function ContactSection() {
                 letterSpacing: '0.05em',
               }}
             >
-              CONTACT US
+              {t('heading')}
             </h2>
             <p
               className='font-garamond mb-4'
@@ -32,8 +27,7 @@ export default function ContactSection() {
                 color: '#555',
               }}
             >
-              Send us your request and we will be happy to provide our best
-              offer
+              {t('subtitle')}
             </p>
             <div className='d-flex flex-column flex-sm-row justify-content-center gap-3'>
               <a
@@ -52,7 +46,7 @@ export default function ContactSection() {
               </a>
             </div>
             <p className='mt-4 mb-0' style={{ fontSize: '0.8rem', color: '#888' }}>
-              Also available on{' '}
+              {t('airbnbText')}{' '}
               <a
                 href='https://www.airbnb.com/rooms/1560794423152204794'
                 target='_blank'
@@ -67,10 +61,9 @@ export default function ContactSection() {
 
         <hr style={{ borderColor: '#c8c5bf', margin: '0 0 2.5rem' }} />
 
-        {/* House rules */}
         <div className='row justify-content-center'>
-          <div className='col-lg-7'>
-            <p className='section-label text-center mb-4'>House Rules</p>
+          <div className='col-12 col-lg-8 mx-auto'>
+            <p className='section-label text-center mb-4'>{t('rulesLabel')}</p>
             <div className='row gy-3'>
               {rules.map((rule, i) => (
                 <div key={i} className='col-md-6'>
