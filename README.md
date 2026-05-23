@@ -30,12 +30,6 @@ Output is generated in `./out/` (static HTML/CSS/JS).
 
 ## Deployment
 
-Pushes to `main` automatically build and deploy to cPanel via FTP using GitHub Actions.
+Pushes to `main` automatically build and deploy to GitHub Pages using GitHub Actions. The site is served via GitHub's CDN at [villadvori.com](https://villadvori.com).
 
-Three repository secrets are required:
-
-| Secret | Description |
-|--------|-------------|
-| `FTP_SERVER` | cPanel FTP hostname |
-| `FTP_USERNAME` | FTP username |
-| `FTP_PASSWORD` | FTP password |
+No secrets or configuration required — GitHub Pages is enabled under **Settings → Pages → Source: GitHub Actions**.
