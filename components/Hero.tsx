@@ -12,7 +12,7 @@ export default function Hero() {
         marginTop: 56,
         position: 'relative',
         overflow: 'hidden',
-        height: 'calc(100vh - 56px)',
+        height: 'calc(100svh - 56px)',
       }}
     >
       {/* Blurred background */}
