@@ -4,22 +4,22 @@ import Image from 'next/image';
 
 const destinations = [
   {
-    img: '/images/location/podobuce.jpg',
+    img: '/images/location/podobuce.webp',
     name: 'Podobuče',
     sub: 'Pelješac Peninsula',
   },
   {
-    img: '/images/location/korcula.jpg',
+    img: '/images/location/korcula.webp',
     name: 'Korčula Island',
     sub: '30 min by boat',
   },
   {
-    img: '/images/location/mljet.jpg',
+    img: '/images/location/mljet.webp',
     name: 'Mljet National Park',
     sub: '1 hr by boat',
   },
   {
-    img: '/images/location/dubrovnik.jpg',
+    img: '/images/location/dubrovnik.webp',
     name: 'Dubrovnik',
     sub: '2 hrs by car',
   },

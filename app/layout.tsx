@@ -35,6 +35,9 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang='en' data-scroll-behavior='smooth' className={`${josefin.variable} ${garamond.variable}`}>
+      <head>
+        <link rel='preload' href='/images/hero.webp' as='image' type='image/webp' />
+      </head>
       <body>
         <Navigation />
         {children}
