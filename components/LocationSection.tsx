@@ -1,5 +1,3 @@
-'use client';
-
 import Image from 'next/image';
 
 const destinations = [
@@ -69,15 +67,7 @@ export default function LocationSection() {
                   src={img}
                   alt={name}
                   fill
-                  style={{ objectFit: 'cover', transition: 'transform 0.6s' }}
-                  onMouseEnter={e =>
-                    ((e.currentTarget as HTMLImageElement).style.transform =
-                      'scale(1.06)')
-                  }
-                  onMouseLeave={e =>
-                    ((e.currentTarget as HTMLImageElement).style.transform =
-                      'scale(1)')
-                  }
+                  style={{ objectFit: 'cover' }}
                 />
                 {/* Gradient overlay */}
                 <div
