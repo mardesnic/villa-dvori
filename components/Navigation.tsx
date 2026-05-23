@@ -50,7 +50,7 @@ export default function Navigation() {
     >
       <div className='container-fluid px-4'>
         <Link
-          className='navbar-brand py-0 text-dark fw-semibold'
+          className='navbar-brand py-0 text-dark fw-semibold d-flex align-items-center gap-2'
           href='/'
           style={{
             fontFamily: "var(--font-josefin), 'Josefin Sans', sans-serif",
@@ -58,7 +58,13 @@ export default function Navigation() {
             fontSize: '1.1rem',
           }}
         >
-          VILLA DVORI
+          <img
+            src='/images/logo-no-text.png'
+            alt=''
+            height={28}
+            style={{ display: 'block', filter: 'invert(1)', marginBottom: 2 }}
+          />
+          <span style={{ lineHeight: 1, letterSpacing: '0.22em' }}>VILLA DVORI</span>
         </Link>
 
         <button

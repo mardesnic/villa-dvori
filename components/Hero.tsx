@@ -9,8 +9,14 @@ export default function Hero() {
 
   return (
     <section
-      style={{ marginTop: 56, position: 'relative', overflow: 'hidden' }}
+      style={{
+        marginTop: 56,
+        position: 'relative',
+        overflow: 'hidden',
+        height: 'calc(100vh - 56px)',
+      }}
     >
+      {/* Blurred background */}
       <Image
         src='/images/hero.webp'
         alt=''
@@ -23,52 +29,72 @@ export default function Hero() {
           opacity: 0.85,
         }}
       />
+
+      {/* Main photo, centered with max width */}
       <div
         style={{
-          maxWidth: 1200,
-          margin: '0 auto',
-          position: 'relative',
+          position: 'absolute',
+          inset: 0,
+          display: 'flex',
+          justifyContent: 'center',
           zIndex: 1,
         }}
       >
-        <Image
-          src='/images/hero.webp'
-          alt={t('imgAlt')}
-          width={1200}
-          height={800}
-          style={{ width: '100%', height: 'auto', display: 'block' }}
-          priority
-        />
-        <div
-          style={{
-            position: 'absolute',
-            inset: 0,
-            display: 'flex',
-            flexDirection: 'column',
-            alignItems: 'center',
-            justifyContent: 'center',
-            gap: '1.5rem',
-          }}
-        >
+        <div style={{ position: 'relative', width: '100%', maxWidth: 1200 }}>
           <Image
-            src='/images/logo.png'
-            alt='Villa Dvori logo'
-            width={280}
-            height={200}
-            style={{
-              width: 'clamp(140px, 20vw, 260px)',
-              height: 'auto',
-              filter: 'drop-shadow(0 2px 10px rgba(0,0,0,0.4))',
-            }}
+            src='/images/hero.webp'
+            alt={t('imgAlt')}
+            fill
+            style={{ objectFit: 'cover' }}
             priority
           />
-          <Link
-            href='/#intro'
-            className='btn-villa-outline-light'
-            style={{ textDecoration: 'none' }}
+          <div
+            style={{
+              position: 'absolute',
+              inset: 0,
+              display: 'flex',
+              flexDirection: 'column',
+              alignItems: 'center',
+              justifyContent: 'center',
+              gap: '3rem',
+              zIndex: 1,
+            }}
           >
-            {t('learnMore')}
-          </Link>
+            <Image
+              src='/images/logo-no-text.png'
+              alt='Villa Dvori logo'
+              width={280}
+              height={200}
+              style={{
+                width: 'clamp(80px, 11vw, 150px)',
+                height: 'auto',
+                filter: 'drop-shadow(0 2px 10px rgba(0,0,0,0.4))',
+              }}
+              priority
+            />
+            <p
+              style={{
+                margin: 0,
+                color: '#fff',
+                fontSize: 'clamp(1rem, 1.8vw, 1.4rem)',
+                letterSpacing: '0.06em',
+                fontWeight: 400,
+                fontFamily: "var(--font-garamond), 'EB Garamond', serif",
+                textAlign: 'center',
+                background: 'rgba(0,0,0,0.25)',
+                padding: '6px 20px',
+              }}
+            >
+              {t('tagline')}
+            </p>
+            <Link
+              href='/#intro'
+              className='btn-villa-outline-light'
+              style={{ textDecoration: 'none' }}
+            >
+              {t('learnMore')}
+            </Link>
+          </div>
         </div>
       </div>
     </section>
