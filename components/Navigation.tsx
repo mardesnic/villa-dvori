@@ -62,9 +62,13 @@ export default function Navigation() {
             src='/images/logo-no-text.png'
             alt=''
             height={28}
-            style={{ display: 'block', filter: 'invert(1)', marginBottom: 2 }}
+            style={{ display: 'block', filter: 'invert(1)' }}
           />
-          <span style={{ lineHeight: 1, letterSpacing: '0.22em' }}>VILLA DVORI</span>
+          <span
+            style={{ lineHeight: 1, letterSpacing: '0.22em', position: 'relative', top: 3 }}
+          >
+            VILLA DVORI
+          </span>
         </Link>
 
         <button
@@ -75,7 +79,7 @@ export default function Navigation() {
           <span className='navbar-toggler-icon' />
         </button>
 
-        <div className={`navbar-collapse collapse ${open ? 'show' : ''}`}>
+        <div className={`navbar-collapse collapse ${open ? 'show pt-3' : ''}`}>
           <ul className='navbar-nav ms-auto mb-2 mb-lg-0 gap-1'>
             {navKeys.map(({ href, key }) => {
               const active = isActive(href);
@@ -130,13 +134,26 @@ export default function Navigation() {
                   cursor: code === locale ? 'default' : 'pointer',
                 }}
               >
-                <img src={flag} alt={label} width={20} height={15} style={{ display: 'block', opacity: code === locale ? 1 : 0.55 }} />
+                <img
+                  src={flag}
+                  alt={label}
+                  width={20}
+                  height={15}
+                  style={{
+                    display: 'block',
+                    opacity: code === locale ? 1 : 0.55,
+                  }}
+                />
               </button>
             ))}
           </div>
 
           {/* Desktop: dropdown */}
-          <div ref={langRef} className='d-none d-lg-block ms-lg-3' style={{ position: 'relative' }}>
+          <div
+            ref={langRef}
+            className='d-none d-lg-block ms-lg-3'
+            style={{ position: 'relative' }}
+          >
             <button
               onClick={() => setLangOpen(o => !o)}
               aria-label='Select language'
@@ -151,7 +168,13 @@ export default function Navigation() {
                 gap: 6,
               }}
             >
-              <img src={current.flag} alt={current.label} width={20} height={15} style={{ display: 'block' }} />
+              <img
+                src={current.flag}
+                alt={current.label}
+                width={20}
+                height={15}
+                style={{ display: 'block' }}
+              />
             </button>
 
             {langOpen && (
@@ -175,7 +198,13 @@ export default function Navigation() {
                       textAlign: 'left',
                     }}
                   >
-                    <img src={flag} alt='' width={20} height={15} style={{ display: 'block', flexShrink: 0 }} />
+                    <img
+                      src={flag}
+                      alt=''
+                      width={20}
+                      height={15}
+                      style={{ display: 'block', flexShrink: 0 }}
+                    />
                     {label}
                   </button>
                 ))}
