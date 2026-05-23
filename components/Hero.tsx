@@ -2,7 +2,6 @@
 
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
-import { Link } from '@/i18n/navigation';
 
 export default function Hero() {
   const t = useTranslations('hero');
@@ -87,13 +86,12 @@ export default function Hero() {
             >
               {t('tagline')}
             </p>
-            <Link
-              href='/#intro'
+            <button
               className='btn-villa-outline-light'
-              style={{ textDecoration: 'none' }}
+              onClick={() => document.getElementById('intro')?.scrollIntoView({ behavior: 'smooth' })}
             >
               {t('learnMore')}
-            </Link>
+            </button>
           </div>
         </div>
       </div>
