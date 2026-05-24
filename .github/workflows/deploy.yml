@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -35,6 +35,13 @@ jobs:
         run: node scripts/fetch-availability.mjs
         env:
           ICAL_URL: ${{ secrets.ICAL_URL }}
+
+      - name: Commit availability if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/availability.json
+          git diff --staged --quiet || git commit -m "chore: update availability [skip ci]" && git push
 
       - name: Build
         run: npm run build

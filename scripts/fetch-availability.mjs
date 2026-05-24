@@ -32,7 +32,7 @@ for (const block of text.split('BEGIN:VEVENT').slice(1)) {
 booked.sort((a, b) => a.start.localeCompare(b.start));
 
 const data = {
-  generated: new Date().toISOString().split('T')[0],
+  generated: new Date().toISOString(),
   booked,
 };
 

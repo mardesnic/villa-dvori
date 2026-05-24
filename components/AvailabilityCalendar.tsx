@@ -217,7 +217,8 @@ export default function AvailabilityCalendar({
       </div>
 
       <p style={{ fontSize: '0.6rem', color: '#bbb', marginTop: '1rem', textAlign: 'right' }}>
-        {t('calendarUpdated')} {generated}
+        {t('calendarUpdated')}{' '}
+        {new Intl.DateTimeFormat(locale, { dateStyle: 'medium', timeStyle: 'short' }).format(new Date(generated))}
       </p>
     </div>
   );
