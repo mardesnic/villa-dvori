@@ -59,6 +59,11 @@
     "heading": "KONTAKTIRAJTE NAS",
     "subtitle": "Pošljite nam povpraševanje in z veseljem vam bomo pripravili našo najboljšo ponudbo",
     "airbnbText": "Na voljo tudi na platformi",
+    "availabilityLabel": "Razpoložljivost",
+    "calendarBooked": "zasedeno",
+    "calendarAvailable": "prosto",
+    "calendarArrivalDay": "sobota — dan prihoda",
+    "calendarUpdated": "Posodobljeno",
     "rulesLabel": "Hišni red",
     "rules": [
       "Villa Dvori se oddaja izključno kot celota.",

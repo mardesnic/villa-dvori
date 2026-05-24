@@ -1,4 +1,6 @@
 import { getTranslations } from 'next-intl/server';
+import availabilityData from '@/data/availability.json';
+import AvailabilityCalendar from './AvailabilityCalendar';
 
 export default async function ContactSection() {
   const t = await getTranslations('contact');
@@ -56,6 +58,18 @@ export default async function ContactSection() {
                 Airbnb
               </a>
             </p>
+          </div>
+        </div>
+
+        <hr style={{ borderColor: '#c8c5bf', margin: '0 0 2.5rem' }} />
+
+        <div className='row justify-content-center mb-5'>
+          <div className='col-12 col-lg-10'>
+            <p className='section-label text-center mb-4'>{t('availabilityLabel')}</p>
+            <AvailabilityCalendar
+              booked={availabilityData.booked}
+              generated={availabilityData.generated}
+            />
           </div>
         </div>
 

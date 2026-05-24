@@ -72,6 +72,7 @@ export default function Hero() {
               priority
             />
             <p
+              className='hero-tagline'
               style={{
                 margin: 0,
                 color: '#fff',

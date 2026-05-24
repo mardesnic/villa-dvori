@@ -59,6 +59,11 @@
     "heading": "SKONTAKTUJ SIĘ Z NAMI",
     "subtitle": "Wyślij nam zapytanie, a z przyjemnością przygotujemy dla Ciebie naszą najlepszą ofertę",
     "airbnbText": "Dostępne również na platformie",
+    "availabilityLabel": "Dostępność",
+    "calendarBooked": "zarezerwowane",
+    "calendarAvailable": "dostępne",
+    "calendarArrivalDay": "sobota — dzień przyjazdu",
+    "calendarUpdated": "Zaktualizowano",
     "rulesLabel": "Regulamin domu",
     "rules": [
       "Villa Dvori wynajmowana jest wyłącznie jako całość.",

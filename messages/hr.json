@@ -59,6 +59,11 @@
     "heading": "KONTAKTIRAJTE NAS",
     "subtitle": "Pošaljite nam upit i bit će nam drago pripremiti našu najbolju ponudu za vas",
     "airbnbText": "Dostupno i na platformi",
+    "availabilityLabel": "Dostupnost",
+    "calendarBooked": "rezervirano",
+    "calendarAvailable": "slobodno",
+    "calendarArrivalDay": "subota — dan dolaska",
+    "calendarUpdated": "Ažurirano",
     "rulesLabel": "Kućni red",
     "rules": [
       "Villa Dvori iznajmljuje se isključivo kao cjelina.",

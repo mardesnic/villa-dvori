@@ -29,6 +29,12 @@ body {
   }
 }
 
+.hero-tagline {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
 .lang-dropdown {
   position: absolute;
   left: 0;

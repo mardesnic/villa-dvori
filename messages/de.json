@@ -59,6 +59,11 @@
     "heading": "KONTAKT",
     "subtitle": "Senden Sie uns einfach Ihre Anfrage — wir erstellen gerne ein maßgeschneidertes Angebot für Sie",
     "airbnbText": "Auch verfügbar auf",
+    "availabilityLabel": "Verfügbarkeit",
+    "calendarBooked": "gebucht",
+    "calendarAvailable": "verfügbar",
+    "calendarArrivalDay": "samstag — anreisetag",
+    "calendarUpdated": "Aktualisiert",
     "rulesLabel": "Hausordnung",
     "rules": [
       "Die Villa Dvori wird ausschließlich als gesamte Einheit vermietet.",

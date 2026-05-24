@@ -59,6 +59,11 @@
     "heading": "CONTACT US",
     "subtitle": "Send us your inquiry and we will be delighted to prepare our best personalized offer for you",
     "airbnbText": "Also available on",
+    "availabilityLabel": "Availability",
+    "calendarBooked": "booked",
+    "calendarAvailable": "available",
+    "calendarArrivalDay": "saturday — arrival day",
+    "calendarUpdated": "Updated",
     "rulesLabel": "House rules",
     "rules": [
       "Villa Dvori is rented exclusively as a whole property.",
