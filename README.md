@@ -45,13 +45,13 @@ The availability calendar on the contact page is driven by `data/availability.js
 1. The GitHub Actions workflow (`.github/workflows/deploy.yml`) runs `node scripts/fetch-availability.mjs` before the build.
 2. The script fetches the iCal URL stored in the `ICAL_URL` repository secret, parses `DTSTART`/`DTEND` date ranges from each `VEVENT`, and writes them to `data/availability.json`.
 3. Next.js imports that file at build time — no runtime API calls, no server needed.
-4. The workflow also runs on a **daily schedule (06:00 UTC)**, so the calendar stays up to date even without a code push.
+4. The workflow also runs on an **hourly schedule**, so the calendar stays up to date even without a code push.
 
 ### Setting up the iCal secret
 
 1. Get your iCal export URL from Airbnb: **Account → Listings → Availability → Export Calendar**.
 2. Go to your GitHub repo → **Settings → Secrets and variables → Actions → New repository secret**.
-3. Name: `ICAL_URL`, Value: the full iCal URL (keep it private — it contains a personal token).
+3. Name: `ICAL_URL`, Value: the full iCal URL (keep it private).
 
 If `ICAL_URL` is not set, the script exits cleanly and the existing `data/availability.json` is used as-is (safe for local development).
 
