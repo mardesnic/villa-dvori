@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /availability-test.ics
 
 Sitemap: https://villadvori.com/sitemap.xml
