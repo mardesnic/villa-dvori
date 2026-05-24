@@ -4,7 +4,8 @@
     "gallery": "GALLERY",
     "location": "LOCATION",
     "video": "VIDEO TOUR",
-    "bookNow": "BOOK NOW"
+    "bookNow": "BOOK NOW",
+    "reviews": "REVIEWS"
   },
   "hero": {
     "learnMore": "LEARN MORE",
@@ -38,10 +39,22 @@
     "subtitle": "Podobuče, Pelješac, Croatia",
     "description": "Podobuče is a peaceful fishing village on the Pelješac peninsula — boasting two restaurants, crystal-clear water, and a wonderfully relaxed pace of life. From here, you can easily reach Korčula island by water taxi, explore the lakes and forests of Mljet National Park, sample the peninsula's famous Dingač wines, or take a scenic drive to Dubrovnik for a day in the historic Old Town.",
     "destinations": {
-      "podobuce": { "name": "Podobuče", "sub": "Pelješac Peninsula" },
-      "korcula": { "name": "Korčula Island", "sub": "30 min by boat" },
-      "mljet": { "name": "NP Mljet", "sub": "1 hr by boat" },
-      "dubrovnik": { "name": "Dubrovnik", "sub": "2 hrs by car" }
+      "podobuce": {
+        "name": "Podobuče",
+        "sub": "Pelješac Peninsula"
+      },
+      "korcula": {
+        "name": "Korčula Island",
+        "sub": "30 min by boat"
+      },
+      "mljet": {
+        "name": "NP Mljet",
+        "sub": "1 hr by boat"
+      },
+      "dubrovnik": {
+        "name": "Dubrovnik",
+        "sub": "2 hrs by car"
+      }
     }
   },
   "team": {
@@ -109,6 +122,20 @@
       "description": "Contact Villa Dvori to check availability and request a quote. We look forward to helping you plan your dream holiday in Croatia.",
       "heading": "GET IN TOUCH",
       "subtitle": "We look forward to hosting you"
+    },
+    "reviews": {
+      "title": "Guest Reviews | Villa Dvori — Pelješac, Croatia",
+      "description": "Read what our guests say about Villa Dvori — a luxury holiday villa in Podobuče, Pelješac, Croatia.",
+      "heading": "REVIEWS",
+      "subtitle": "Memories made, stories shared",
+      "imgAlt": "Villa Dvori pool and garden"
     }
+  },
+  "reviews": {
+    "label": "Guest Reviews",
+    "headingItalic": "What our guests",
+    "headingStrong": "SAY ABOUT US",
+    "viewAll": "Read all reviews",
+    "viewOnGoogle": "See all reviews on Google Maps"
   }
 }

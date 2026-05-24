@@ -4,7 +4,8 @@
     "gallery": "GALERIE",
     "location": "SITUATION",
     "video": "VISITE VIDÉO",
-    "bookNow": "RÉSERVER"
+    "bookNow": "RÉSERVER",
+    "reviews": "AVIS"
   },
   "hero": {
     "learnMore": "EN SAVOIR PLUS",
@@ -38,10 +39,22 @@
     "subtitle": "Podobuče, Pelješac, Croatie",
     "description": "Podobuče est un paisible village de pêcheurs situé sur la péninsule de Pelješac — deux restaurants, une eau cristalline et un rythme de vie serein. De là, vous pourrez facilement rejoindre l'île de Korčula en bateau, explorer les lacs et forêts du Parc National de Mljet, déguster les célèbres vins Dingač de la région ou vous rendre à Dubrovnik pour une journée au cœur de la vieille ville.",
     "destinations": {
-      "podobuce": { "name": "Podobuče", "sub": "Péninsule de Pelješac" },
-      "korcula": { "name": "Île de Korčula", "sub": "30 min en bateau" },
-      "mljet": { "name": "NP Mljet", "sub": "1 h en bateau" },
-      "dubrovnik": { "name": "Dubrovnik", "sub": "2 h en voiture" }
+      "podobuce": {
+        "name": "Podobuče",
+        "sub": "Péninsule de Pelješac"
+      },
+      "korcula": {
+        "name": "Île de Korčula",
+        "sub": "30 min en bateau"
+      },
+      "mljet": {
+        "name": "NP Mljet",
+        "sub": "1 h en bateau"
+      },
+      "dubrovnik": {
+        "name": "Dubrovnik",
+        "sub": "2 h en voiture"
+      }
     }
   },
   "team": {
@@ -109,6 +122,20 @@
       "description": "Contactez la Villa Dvori pour vérifier les disponibilités et obtenir un devis. Nous serons ravis de vous aider à planifier vos vacances de rêve en Croatie.",
       "heading": "CONTACTEZ-NOUS",
       "subtitle": "Au plaisir de vous accueillir chez nous"
+    },
+    "reviews": {
+      "title": "Avis des clients | Villa Dvori — Pelješac, Croatie",
+      "description": "Lisez ce que nos clients disent de Villa Dvori — une villa de vacances de luxe à Podobuče sur la péninsule de Pelješac.",
+      "heading": "AVIS",
+      "subtitle": "Des souvenirs créés, des histoires partagées",
+      "imgAlt": "Piscine et jardin de Villa Dvori"
     }
+  },
+  "reviews": {
+    "label": "Avis des clients",
+    "headingItalic": "Ce que disent",
+    "headingStrong": "NOS CLIENTS",
+    "viewAll": "Lire tous les avis",
+    "viewOnGoogle": "Voir tous les avis sur Google Maps"
   }
 }

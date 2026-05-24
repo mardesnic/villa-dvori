@@ -4,7 +4,8 @@
     "gallery": "GALERIJA",
     "location": "LOKACIJA",
     "video": "VIDEO OGLED",
-    "bookNow": "REZERVIRAJTE"
+    "bookNow": "REZERVIRAJTE",
+    "reviews": "MNENJA"
   },
   "hero": {
     "learnMore": "IZVEDI VEČ",
@@ -38,10 +39,22 @@
     "subtitle": "Podobuče, Pelješac, Hrvaška",
     "description": "Podobuče je mirna ribiška vasica na polotoku Pelješac, ki ponuja dve restavraciji, kristalno čisto morje in sproščen tempo življenja. Od tod se lahko z ladjico odpravite na otok Korčulo, raziščete jezera in gozdove na Mljetu, poskusite vrhunska pelješka vina s položaja Dingač ali pa se z avtomobilom odpeljete na enodnevni izlet v Dubrovnik in raziščete staro mestno jedro.",
     "destinations": {
-      "podobuce": { "name": "Podobuče", "sub": "Polotok Pelješac" },
-      "korcula": { "name": "Otok Korčula", "sub": "30 min z ladjo" },
-      "mljet": { "name": "NP Mljet", "sub": "1 ura z ladjo" },
-      "dubrovnik": { "name": "Dubrovnik", "sub": "2 uri z avtom" }
+      "podobuce": {
+        "name": "Podobuče",
+        "sub": "Polotok Pelješac"
+      },
+      "korcula": {
+        "name": "Otok Korčula",
+        "sub": "30 min z ladjo"
+      },
+      "mljet": {
+        "name": "NP Mljet",
+        "sub": "1 ura z ladjo"
+      },
+      "dubrovnik": {
+        "name": "Dubrovnik",
+        "sub": "2 uri z avtom"
+      }
     }
   },
   "team": {
@@ -109,6 +122,20 @@
       "description": "Stopite v stik z Villo Dvori za preverjanje razpoložljivosti in informativni izračun. Z veseljem vam pomagamo načrtovati sanjske počitnice na Hrvaškem.",
       "heading": "STOPITE V STIK Z NAMI",
       "subtitle": "Veselimo se vašega obiska"
+    },
+    "reviews": {
+      "title": "Mnenja gostov | Villa Dvori — Pelješac, Hrvaška",
+      "description": "Preberite, kaj pravijo gosti o Villa Dvori — luksuzni počitniški vili v Podobučah na polotoku Pelješac.",
+      "heading": "MNENJA",
+      "subtitle": "Ustvarjeni spomini, deljene zgodbe",
+      "imgAlt": "Bazen in vrt Villa Dvori"
     }
+  },
+  "reviews": {
+    "label": "Mnenja gostov",
+    "headingItalic": "Kaj pravijo",
+    "headingStrong": "NAŠI GOSTJE",
+    "viewAll": "Preberi vsa mnenja",
+    "viewOnGoogle": "Poglej vsa mnenja na Google Zemljevidih"
   }
 }

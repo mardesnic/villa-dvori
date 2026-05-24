@@ -4,7 +4,8 @@
     "gallery": "GALERIJA",
     "location": "LOKACIJA",
     "video": "VIDEO TURA",
-    "bookNow": "REZERVIRAJTE"
+    "bookNow": "REZERVIRAJTE",
+    "reviews": "RECENZIJE"
   },
   "hero": {
     "learnMore": "SAZNAJTE VIŠE",
@@ -38,10 +39,22 @@
     "subtitle": "Podobuče, Pelješac, Hrvatska",
     "description": "Podobuče je mirno ribarsko selo na poluotoku Pelješcu koje nudi dva restorana, kristalno čisto more i opušten tempo života. Odavde možete brodom stići do otoka Korčule, istražiti jezera i šume Mljeta, kušati čuvena pelješka vina s položaja Dingač te automobilom posjetiti Dubrovnik i provesti dan u staroj gradskoj jezgri.",
     "destinations": {
-      "podobuce": { "name": "Podobuče", "sub": "Poluotok Pelješac" },
-      "korcula": { "name": "Otok Korčula", "sub": "30 min brodom" },
-      "mljet": { "name": "NP Mljet", "sub": "1 sat brodom" },
-      "dubrovnik": { "name": "Dubrovnik", "sub": "2 sata autom" }
+      "podobuce": {
+        "name": "Podobuče",
+        "sub": "Poluotok Pelješac"
+      },
+      "korcula": {
+        "name": "Otok Korčula",
+        "sub": "30 min brodom"
+      },
+      "mljet": {
+        "name": "NP Mljet",
+        "sub": "1 sat brodom"
+      },
+      "dubrovnik": {
+        "name": "Dubrovnik",
+        "sub": "2 sata autom"
+      }
     }
   },
   "team": {
@@ -109,6 +122,20 @@
       "description": "Kontaktirajte Villu Dvori za provjeru dostupnosti i izradu ponude. Rado ćemo vam pomoći u planiranju savršenog odmora u Hrvatskoj.",
       "heading": "KONTAKTIRAJTE NAS",
       "subtitle": "Radujemo se vašem dolasku"
+    },
+    "reviews": {
+      "title": "Recenzije gostiju | Villa Dvori — Pelješac, Hrvatska",
+      "description": "Pročitajte što naši gosti govore o Villi Dvori — luksuznoj vili za odmor u Podobuču, Pelješac, Hrvatska.",
+      "heading": "RECENZIJE",
+      "subtitle": "Uspomene nastale, priče podijeljene",
+      "imgAlt": "Bazen i vrt Ville Dvori"
     }
+  },
+  "reviews": {
+    "label": "Recenzije gostiju",
+    "headingItalic": "Što naši gosti",
+    "headingStrong": "KAŽU O NAMA",
+    "viewAll": "Pročitaj sve recenzije",
+    "viewOnGoogle": "Pogledaj sve recenzije na Google Mapsu"
   }
 }

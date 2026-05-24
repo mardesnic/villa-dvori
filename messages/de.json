@@ -4,7 +4,8 @@
     "gallery": "GALERIE",
     "location": "LAGE",
     "video": "VIDEO-TOUR",
-    "bookNow": "BUCHEN"
+    "bookNow": "BUCHEN",
+    "reviews": "BEWERTUNGEN"
   },
   "hero": {
     "learnMore": "MEHR ERFAHREN",
@@ -38,10 +39,22 @@
     "subtitle": "Podobuče, Pelješac, Kroatien",
     "description": "Podobuče ist ein idyllisches, ruhiges Fischerdorf auf der Halbinsel Pelješac — mit zwei Restaurants, kristallklarem Wasser und einem herrlich entspannten Lebensstempo. Von hier aus können Sie die Insel Korčula bequem per Boot erreichen, die Seen und Wälder des Nationalparks Mljet erkunden, die berühmten Dingač-Weine der Region kosten oder einen Tagesausflug mit dem Auto nach Dubrovnik unternehmen, um die historische Altstadt zu entdecken.",
     "destinations": {
-      "podobuce": { "name": "Podobuče", "sub": "Halbinsel Pelješac" },
-      "korcula": { "name": "Insel Korčula", "sub": "30 Min. per Boot" },
-      "mljet": { "name": "NP Mljet", "sub": "1 Std. per Boot" },
-      "dubrovnik": { "name": "Dubrovnik", "sub": "2 Std. mit dem Auto" }
+      "podobuce": {
+        "name": "Podobuče",
+        "sub": "Halbinsel Pelješac"
+      },
+      "korcula": {
+        "name": "Insel Korčula",
+        "sub": "30 Min. per Boot"
+      },
+      "mljet": {
+        "name": "NP Mljet",
+        "sub": "1 Std. per Boot"
+      },
+      "dubrovnik": {
+        "name": "Dubrovnik",
+        "sub": "2 Std. mit dem Auto"
+      }
     }
   },
   "team": {
@@ -109,6 +122,20 @@
       "description": "Kontaktieren Sie die Villa Dvori, um die Verfügbarkeit zu prüfen und ein Angebot anzufordern. Wir freuen uns, Ihren Traumurlaub in Kroatien zu planen.",
       "heading": "NEHMEN SIE KONTAKT AUF",
       "subtitle": "Wir freuen uns darauf, Sie als Gäste zu begrüßen"
+    },
+    "reviews": {
+      "title": "Gästebewertungen | Villa Dvori — Pelješac, Kroatien",
+      "description": "Lesen Sie, was Gäste über Villa Dvori sagen — eine luxuriöse Ferienvilla in Podobuče auf der Halbinsel Pelješac.",
+      "heading": "BEWERTUNGEN",
+      "subtitle": "Erinnerungen geschaffen, Geschichten geteilt",
+      "imgAlt": "Pool und Garten der Villa Dvori"
     }
+  },
+  "reviews": {
+    "label": "Gästebewertungen",
+    "headingItalic": "Was unsere Gäste",
+    "headingStrong": "ÜBER UNS SAGEN",
+    "viewAll": "Alle Bewertungen lesen",
+    "viewOnGoogle": "Alle Bewertungen auf Google Maps ansehen"
   }
 }

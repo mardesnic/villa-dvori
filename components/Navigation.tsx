@@ -10,6 +10,7 @@ const navKeys = [
   { href: '/photo' as const, key: 'gallery' },
   { href: '/location' as const, key: 'location' },
   { href: '/video' as const, key: 'video' },
+  { href: '/reviews' as const, key: 'reviews' },
   { href: '/contact' as const, key: 'bookNow' },
 ];
 

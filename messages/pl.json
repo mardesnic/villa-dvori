@@ -4,7 +4,8 @@
     "gallery": "GALERIA",
     "location": "LOKALIZACJA",
     "video": "WIDEO TURA",
-    "bookNow": "REZERWUJ"
+    "bookNow": "REZERWUJ",
+    "reviews": "OPINIE"
   },
   "hero": {
     "learnMore": "DOWIEDZ SIĘ WIĘCEJ",
@@ -38,10 +39,22 @@
     "subtitle": "Podobuče, Pelješac, Chorwacja",
     "description": "Podobuče to kameralna, spokojna wioska rybacka na półwyspie Pelješac, oferująca dwie restauracje, krystalicznie czystą wodę i niespieszne tempo życia. Stąd można łatwo dotrzeć łodzią na wyspę Korčula, odkryć jeziora i lasy na wyspie Mljet, skosztować słynnych pelješkich win Dingač lub wybrać się na jednodniową wycieczkę samochodem do Dubrownika, by zwiedzić zabytkowe stare miasto.",
     "destinations": {
-      "podobuce": { "name": "Podobuče", "sub": "Półwysep Pelješac" },
-      "korcula": { "name": "Wyspa Korčula", "sub": "30 min łodzią" },
-      "mljet": { "name": "Park Narodowy Mljet", "sub": "1 godz. łodzią" },
-      "dubrovnik": { "name": "Dubrownik", "sub": "2 godz. samochodem" }
+      "podobuce": {
+        "name": "Podobuče",
+        "sub": "Półwysep Pelješac"
+      },
+      "korcula": {
+        "name": "Wyspa Korčula",
+        "sub": "30 min łodzią"
+      },
+      "mljet": {
+        "name": "Park Narodowy Mljet",
+        "sub": "1 godz. łodzią"
+      },
+      "dubrovnik": {
+        "name": "Dubrownik",
+        "sub": "2 godz. samochodem"
+      }
     }
   },
   "team": {
@@ -109,6 +122,20 @@
       "description": "Skontaktuj się z Villą Dvori, aby sprawdzić dostępność terminów i otrzymać wycenę. Chętnie pomożemy zaplanować Twoje wymarzone wakacje w Chorwacji.",
       "heading": "NALEŻYMY DO TWOJEJ DYSPOZYCJI",
       "subtitle": "Czekamy na Twój przyjazd"
+    },
+    "reviews": {
+      "title": "Opinie gości | Villa Dvori — Pelješac, Chorwacja",
+      "description": "Przeczytaj opinie gości o Villa Dvori — luksusowej willi wakacyjnej w Podobuče na półwyspie Pelješac.",
+      "heading": "OPINIE",
+      "subtitle": "Wspomnienia tworzone, historie dzielone",
+      "imgAlt": "Basen i ogród Villa Dvori"
     }
+  },
+  "reviews": {
+    "label": "Opinie gości",
+    "headingItalic": "Co mówią",
+    "headingStrong": "NASI GOŚCIE",
+    "viewAll": "Przeczytaj wszystkie opinie",
+    "viewOnGoogle": "Zobacz wszystkie opinie w Google Maps"
   }
 }

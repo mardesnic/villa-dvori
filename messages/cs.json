@@ -4,7 +4,8 @@
     "gallery": "GALERIE",
     "location": "POLOHA",
     "video": "VIDEO PROHLÍDKA",
-    "bookNow": "REZERVOVAT"
+    "bookNow": "REZERVOVAT",
+    "reviews": "RECENZE"
   },
   "hero": {
     "learnMore": "ZJISTIT VÍCE",
@@ -38,10 +39,22 @@
     "subtitle": "Podobuče, Pelješac, Chorvatsko",
     "description": "Podobuče je klidná rybářská vesnice na poloostrově Pelješac — nabízí dvě restaurace, křišťálově čistou vodu a pohodové tempo života. Odtud se snadno dostanete lodí na ostrov Korčula, prozkoumáte jezera a lesy na Mljetu, ochutnáte slavná pelješacká vína Dingač nebo zajedete autem do Dubrovníku na prohlídku historického starého města.",
     "destinations": {
-      "podobuce": { "name": "Podobuče", "sub": "Poloostrov Pelješac" },
-      "korcula": { "name": "Ostrov Korčula", "sub": "30 min lodí" },
-      "mljet": { "name": "NP Mljet", "sub": "1 hod. lodí" },
-      "dubrovnik": { "name": "Dubrovník", "sub": "2 hod. autem" }
+      "podobuce": {
+        "name": "Podobuče",
+        "sub": "Poloostrov Pelješac"
+      },
+      "korcula": {
+        "name": "Ostrov Korčula",
+        "sub": "30 min lodí"
+      },
+      "mljet": {
+        "name": "NP Mljet",
+        "sub": "1 hod. lodí"
+      },
+      "dubrovnik": {
+        "name": "Dubrovník",
+        "sub": "2 hod. autem"
+      }
     }
   },
   "team": {
@@ -104,6 +117,20 @@
       "description": "Kontaktujte Villu Dvori pro ověření dostupnosti a získání nabíd```ky. Rádi vám pomůžeme naplánovat vaši vysněnou dovolenou v Chorvatsku.",
       "heading": "SPOJTE SE S NÁMI",
       "subtitle": "Těšíme se na vaši návštěvu"
+    },
+    "reviews": {
+      "title": "Recenze hostů | Villa Dvori — Pelješac, Chorvatsko",
+      "description": "Přečtěte si, co říkají hosté o Villa Dvori — luxusní dovolenkové vile v Podobuče na poloostrově Pelješac.",
+      "heading": "RECENZE",
+      "subtitle": "Vzpomínky vytvořeny, příběhy sdíleny",
+      "imgAlt": "Bazén a zahrada Villa Dvori"
     }
+  },
+  "reviews": {
+    "label": "Recenze hostů",
+    "headingItalic": "Co říkají",
+    "headingStrong": "NAŠI HOSTÉ",
+    "viewAll": "Číst všechny recenze",
+    "viewOnGoogle": "Zobrazit všechny recenze na Google Maps"
   }
 }
