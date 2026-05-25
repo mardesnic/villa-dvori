@@ -42,7 +42,7 @@ function mergeRanges(ranges: BookedRange[]): BookedRange[] {
 
 function isBooked(date: Date, ranges: BookedRange[]): boolean {
   const t = date.getTime();
-  return ranges.some(r => t >= parseLocal(r.start) && t < parseLocal(r.end));
+  return ranges.some(r => t > parseLocal(r.start) && t < parseLocal(r.end));
 }
 
 // Season is June–September; everything else is off-season
