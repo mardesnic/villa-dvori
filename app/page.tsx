@@ -5,6 +5,7 @@ import AccommodationSection from '@/components/AccommodationSection';
 import GalleryGrid from '@/components/GalleryGrid';
 import LocationSection from '@/components/LocationSection';
 import TeamSection from '@/components/TeamSection';
+import ReviewsSection from '@/components/ReviewsSection';
 import ContactSection from '@/components/ContactSection';
 import PageShell from '@/components/PageShell';
 import { exteriorImages, interiorImages } from '@/data/images';
@@ -84,6 +85,7 @@ export default async function RootPage() {
         </div>
         <LocationSection />
         <TeamSection />
+        <ReviewsSection preview />
         <ContactSection />
       </main>
     </PageShell>
