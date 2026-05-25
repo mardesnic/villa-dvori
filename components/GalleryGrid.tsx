@@ -6,6 +6,7 @@ import Lightbox from 'yet-another-react-lightbox';
 import 'yet-another-react-lightbox/styles.css';
 import Counter from 'yet-another-react-lightbox/plugins/counter';
 import 'yet-another-react-lightbox/plugins/counter.css';
+import Zoom from 'yet-another-react-lightbox/plugins/zoom';
 
 interface GalleryImage {
   src: string;
@@ -109,7 +110,7 @@ export default function GalleryGrid({
           close={() => setOpen(false)}
           index={index}
           slides={slides}
-          plugins={[Counter]}
+          plugins={[Counter, Zoom]}
         />
       </div>
     );
@@ -159,7 +160,7 @@ export default function GalleryGrid({
           close={() => setOpen(false)}
           index={index}
           slides={slides}
-          plugins={[Counter]}
+          plugins={[Counter, Zoom]}
         />
       </div>
     );
@@ -200,7 +201,7 @@ export default function GalleryGrid({
         close={() => setOpen(false)}
         index={index}
         slides={slides}
-        plugins={[Counter]}
+        plugins={[Counter, Zoom]}
       />
     </div>
   );
