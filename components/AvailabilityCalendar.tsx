@@ -23,6 +23,23 @@ function parseLocal(str: string): number {
   return new Date(y, m - 1, d).getTime();
 }
 
+// Merge ranges whose gap is shorter than MIN_STAY days — those gaps can never
+// hold a valid booking so they should display as unavailable.
+const MIN_STAY = 7;
+
+function mergeRanges(ranges: BookedRange[]): BookedRange[] {
+  const sorted = [...ranges].sort((a, b) => a.start.localeCompare(b.start));
+  const out: BookedRange[] = [];
+  for (const r of sorted) {
+    if (!out.length) { out.push({ ...r }); continue; }
+    const last = out[out.length - 1];
+    const gap = (parseLocal(r.start) - parseLocal(last.end)) / 86400000;
+    if (gap < MIN_STAY) { if (r.end > last.end) last.end = r.end; }
+    else out.push({ ...r });
+  }
+  return out;
+}
+
 function isBooked(date: Date, ranges: BookedRange[]): boolean {
   const t = date.getTime();
   return ranges.some(r => t >= parseLocal(r.start) && t < parseLocal(r.end));
@@ -161,6 +178,8 @@ export default function AvailabilityCalendar({
   const today = new Date();
   today.setHours(0, 0, 0, 0);
 
+  const effectiveBooked = mergeRanges(booked);
+
   // Mon 1 Jan 2024 is a Monday — use as anchor to get Mon–Sun short names
   const dayNames = Array.from(
     { length: 7 },
@@ -241,7 +260,7 @@ export default function AvailabilityCalendar({
           <MonthCalendar
             year={m1.getFullYear()}
             month={m1.getMonth()}
-            booked={booked}
+            booked={effectiveBooked}
             today={today}
             locale={locale}
             dayNames={dayNames}
@@ -251,7 +270,7 @@ export default function AvailabilityCalendar({
           <MonthCalendar
             year={m2.getFullYear()}
             month={m2.getMonth()}
-            booked={booked}
+            booked={effectiveBooked}
             today={today}
             locale={locale}
             dayNames={dayNames}
