@@ -94,7 +94,8 @@
       "exteriorTitle": "Espaces extérieurs",
       "exteriorSubtitle": "Jardins, piscine, terrasses et vue panoramique sur l'Adriatique",
       "interiorTitle": "Espaces intérieurs",
-      "interiorSubtitle": "Chambres, salons confortables et cuisine entièrement équipée"
+      "interiorSubtitle": "Chambres, salons confortables et cuisine entièrement équipée",
+      "floorPlanTitle": "Plan"
     },
     "gallery": {
       "title": "Galerie Photos | Villa Dvori — Pelješac, Croatie",
@@ -106,6 +107,7 @@
       "interiorTitle": "Espaces intérieurs",
       "interiorSubtitle": "Chambres, salons confortables et cuisine entièrement équipée",
       "allPhotosTitle": "Toutes les photos",
+      "floorPlanTitle": "Plan",
       "imgAlt": "Piscine de la Villa Dvori"
     },
     "location": {

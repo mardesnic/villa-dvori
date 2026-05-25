@@ -1,7 +1,6 @@
 import type { Metadata } from 'next';
 import { getMessages, setRequestLocale } from 'next-intl/server';
-import LocationSection from '@/components/LocationSection';
-import ContactSection from '@/components/ContactSection';
+import LocationPageContent from '@/components/LocationPageContent';
 import PageShell from '@/components/PageShell';
 import '../globals.css';
 
@@ -18,10 +17,7 @@ export default async function LocationPage() {
 
   return (
     <PageShell locale='en' messages={messages}>
-      <main style={{ paddingTop: 56 }}>
-        <LocationSection />
-        <ContactSection />
-      </main>
+      <LocationPageContent />
     </PageShell>
   );
 }

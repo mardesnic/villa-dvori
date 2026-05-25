@@ -94,7 +94,8 @@
       "exteriorTitle": "Külső terek",
       "exteriorSubtitle": "Kertek, medence, teraszok és panorámás kilátás az Adriai-tengerre",
       "interiorTitle": "Belső terek",
-      "interiorSubtitle": "Hálószobák, hangulatos közösségi terek és teljesen felszerelt konyha"
+      "interiorSubtitle": "Hálószobák, hangulatos közösségi terek és teljesen felszerelt konyha",
+      "floorPlanTitle": "Alaprajz"
     },
     "gallery": {
       "title": "Fotógaléria | Villa Dvori — Pelješac, Horvátország",
@@ -106,6 +107,7 @@
       "interiorTitle": "Belső terek",
       "interiorSubtitle": "Hálószobák, hangulatos közösségi terek és teljesen felszerelt konyha",
       "allPhotosTitle": "Összes fotó",
+      "floorPlanTitle": "Alaprajz",
       "imgAlt": "A Villa Dvori úszómedencéje"
     },
     "location": {

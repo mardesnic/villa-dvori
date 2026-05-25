@@ -1,7 +1,6 @@
 import type { Metadata } from 'next';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
-import VideoSection from '@/components/VideoSection';
-import ContactSection from '@/components/ContactSection';
+import VideoPageContent from '@/components/VideoPageContent';
 
 export async function generateMetadata({
   params,
@@ -25,10 +24,5 @@ export default async function VideoPage({
   setRequestLocale(locale);
   const t = await getTranslations('pages.video');
 
-  return (
-    <main style={{ paddingTop: 56 }}>
-      <VideoSection heading={t('heading')} headingAs='h1' />
-      <ContactSection />
-    </main>
-  );
+  return <VideoPageContent heading={t('heading')} />;
 }

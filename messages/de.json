@@ -94,7 +94,8 @@
       "exteriorTitle": "Außenbereich",
       "exteriorSubtitle": "Gärten, Pool, Terrassen und Panoramablick auf die Adria",
       "interiorTitle": "Innenbereich",
-      "interiorSubtitle": "Schlafzimmer, gemütliche Wohnräume und voll ausgestattete Küche"
+      "interiorSubtitle": "Schlafzimmer, gemütliche Wohnräume und voll ausgestattete Küche",
+      "floorPlanTitle": "Grundriss"
     },
     "gallery": {
       "title": "Fotogalerie | Villa Dvori — Pelješac, Kroatien",
@@ -106,6 +107,7 @@
       "interiorTitle": "Innenbereich",
       "interiorSubtitle": "Schlafzimmer, gemütliche Wohnräume und voll ausgestattete Küche",
       "allPhotosTitle": "Alle Fotos",
+      "floorPlanTitle": "Grundriss",
       "imgAlt": "Pool der Villa Dvori"
     },
     "location": {

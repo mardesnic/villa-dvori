@@ -1,7 +1,6 @@
 import type { Metadata } from 'next';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
-import LocationSection from '@/components/LocationSection';
-import ContactSection from '@/components/ContactSection';
+import LocationPageContent from '@/components/LocationPageContent';
 
 export async function generateMetadata({
   params,
@@ -24,10 +23,5 @@ export default async function LocationPage({
   const { locale } = await params;
   setRequestLocale(locale);
 
-  return (
-    <main style={{ paddingTop: 56 }}>
-      <LocationSection />
-      <ContactSection />
-    </main>
-  );
+  return <LocationPageContent />;
 }

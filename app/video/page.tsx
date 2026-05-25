@@ -1,7 +1,6 @@
 import type { Metadata } from 'next';
 import { getMessages, getTranslations, setRequestLocale } from 'next-intl/server';
-import VideoSection from '@/components/VideoSection';
-import ContactSection from '@/components/ContactSection';
+import VideoPageContent from '@/components/VideoPageContent';
 import PageShell from '@/components/PageShell';
 import '../globals.css';
 
@@ -19,10 +18,7 @@ export default async function VideoPage() {
 
   return (
     <PageShell locale='en' messages={messages}>
-      <main style={{ paddingTop: 56 }}>
-        <VideoSection heading={t('heading')} headingAs='h1' />
-        <ContactSection />
-      </main>
+      <VideoPageContent heading={t('heading')} />
     </PageShell>
   );
 }

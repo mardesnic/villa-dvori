@@ -89,7 +89,8 @@
       "exteriorTitle": "Exteriér",
       "exteriorSubtitle": "Zahrady, bazén, terasy a panoramatický výhled na Jadran",
       "interiorTitle": "Interiér",
-      "interiorSubtitle": "Ložnice, obývací prostory a plně vybavená kuchyně"
+      "interiorSubtitle": "Ložnice, obývací prostory a plně vybavená kuchyně",
+      "floorPlanTitle": "Půdorys"
     },
     "gallery": {
       "title": "Fotogalerie | Villa Dvori — Pelješac, Chorvatsko",
@@ -101,6 +102,7 @@
       "interiorTitle": "Interiér",
       "interiorSubtitle": "Ložnice, obývací prostory a plně vybavená kuchyně",
       "allPhotosTitle": "Všechny fotografie",
+      "floorPlanTitle": "Půdorys",
       "imgAlt": "Bazén Villy Dvori"
     },
     "location": {
