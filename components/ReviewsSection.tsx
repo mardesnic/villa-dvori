@@ -2,7 +2,7 @@ import { getTranslations } from 'next-intl/server';
 import { Link } from '@/i18n/navigation';
 import reviewsData from '@/data/reviews.json';
 
-const PREVIEW_COUNT = 6;
+const PREVIEW_COUNT = 3;
 
 export default async function ReviewsSection({ preview = false }: { preview?: boolean }) {
   const t = await getTranslations('reviews');
