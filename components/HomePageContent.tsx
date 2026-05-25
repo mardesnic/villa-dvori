@@ -5,6 +5,8 @@ import LocationSection from '@/components/LocationSection';
 import TeamSection from '@/components/TeamSection';
 import ReviewsSection from '@/components/ReviewsSection';
 import ContactSection from '@/components/ContactSection';
+import { Link } from '@/i18n/navigation';
+import Button from '@/components/Button';
 import { exteriorImages, interiorImages } from '@/data/images';
 
 const jsonLd = {
@@ -24,11 +26,23 @@ const jsonLd = {
     addressCountry: 'HR',
   },
   amenityFeature: [
-    { '@type': 'LocationFeatureSpecification', name: 'Heated swimming pool', value: true },
+    {
+      '@type': 'LocationFeatureSpecification',
+      name: 'Heated swimming pool',
+      value: true,
+    },
     { '@type': 'LocationFeatureSpecification', name: 'WiFi', value: true },
-    { '@type': 'LocationFeatureSpecification', name: 'Air conditioning', value: true },
+    {
+      '@type': 'LocationFeatureSpecification',
+      name: 'Air conditioning',
+      value: true,
+    },
     { '@type': 'LocationFeatureSpecification', name: 'Barbecue', value: true },
-    { '@type': 'LocationFeatureSpecification', name: 'Table tennis', value: true },
+    {
+      '@type': 'LocationFeatureSpecification',
+      name: 'Table tennis',
+      value: true,
+    },
   ],
   numberOfRooms: 6,
   occupancy: { '@type': 'QuantitativeValue', maxValue: 12 },
@@ -39,6 +53,7 @@ interface Props {
   exteriorSubtitle: string;
   interiorTitle: string;
   interiorSubtitle: string;
+  viewAllPhotos: string;
 }
 
 export default function HomePageContent({
@@ -46,6 +61,7 @@ export default function HomePageContent({
   exteriorSubtitle,
   interiorTitle,
   interiorSubtitle,
+  viewAllPhotos,
 }: Props) {
   return (
     <main>
@@ -70,6 +86,11 @@ export default function HomePageContent({
           title={interiorTitle}
           subtitle={interiorSubtitle}
         />
+        <div className='text-center mt-5 mb-3'>
+          <Button variant='outline' as={Link} href='/photo'>
+            {viewAllPhotos}
+          </Button>
+        </div>
       </div>
       <LocationSection />
       <TeamSection />

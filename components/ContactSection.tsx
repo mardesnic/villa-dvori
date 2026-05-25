@@ -1,6 +1,7 @@
 import { getTranslations } from 'next-intl/server';
 import availabilityData from '@/data/availability.json';
 import AvailabilityCalendar from './AvailabilityCalendar';
+import Button from '@/components/Button';
 
 export default async function ContactSection() {
   const t = await getTranslations('contact');
@@ -33,20 +34,12 @@ export default async function ContactSection() {
                 {t('subtitle')}
               </p>
               <div className='d-flex flex-column flex-sm-row justify-content-center gap-3'>
-                <a
-                  href='mailto:sanda.desnica@gmail.com'
-                  className='btn-villa'
-                  style={{ textDecoration: 'none', display: 'inline-block' }}
-                >
+                <Button variant='solid' as='a' href='mailto:sanda.desnica@gmail.com'>
                   sanda.desnica@gmail.com
-                </a>
-                <a
-                  href='tel:+385914714378'
-                  className='btn-villa'
-                  style={{ textDecoration: 'none', display: 'inline-block' }}
-                >
+                </Button>
+                <Button variant='solid' as='a' href='tel:+385914714378'>
                   +385 91 471 4378
-                </a>
+                </Button>
               </div>
               <p className='mt-4 mb-0' style={{ fontSize: '0.8rem', color: '#888' }}>
                 {t('airbnbText')}{' '}

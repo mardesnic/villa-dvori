@@ -1,6 +1,7 @@
 import { getTranslations } from 'next-intl/server';
 import { Link } from '@/i18n/navigation';
 import reviewsData from '@/data/reviews.json';
+import Button from '@/components/Button';
 
 const PREVIEW_COUNT = 3;
 
@@ -64,22 +65,9 @@ export default async function ReviewsSection({ preview = false }: { preview?: bo
 
         <div className='text-center mt-5 d-flex flex-column flex-sm-row justify-content-center align-items-center gap-3'>
           {preview && (
-            <Link
-              href='/reviews'
-              style={{
-                display: 'inline-block',
-                fontFamily: "var(--font-josefin), 'Josefin Sans', sans-serif",
-                fontSize: '0.75rem',
-                letterSpacing: '0.15em',
-                color: '#555',
-                border: '1px solid #bbb',
-                padding: '0.6rem 1.8rem',
-                textDecoration: 'none',
-                borderRadius: 2,
-              }}
-            >
+            <Button variant='outline' as={Link} href='/reviews'>
               {t('viewAll')}
-            </Link>
+            </Button>
           )}
           {!preview && <a
             href='https://maps.app.goo.gl/RZEshETRXGrNHjHm6'

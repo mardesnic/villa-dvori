@@ -35,6 +35,7 @@ export default async function Home({
       exteriorSubtitle={t('exteriorSubtitle')}
       interiorTitle={t('interiorTitle')}
       interiorSubtitle={t('interiorSubtitle')}
+      viewAllPhotos={t('viewAllPhotos')}
     />
   );
 }

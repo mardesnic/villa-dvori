@@ -4,6 +4,8 @@ import { useState, useCallback } from 'react';
 import Image from 'next/image';
 import Lightbox from 'yet-another-react-lightbox';
 import 'yet-another-react-lightbox/styles.css';
+import Counter from 'yet-another-react-lightbox/plugins/counter';
+import 'yet-another-react-lightbox/plugins/counter.css';
 
 interface GalleryImage {
   src: string;
@@ -67,20 +69,13 @@ export default function GalleryGrid({
     return (
       <div className='container-fluid px-3 px-md-4'>
         <SectionHeader />
-        <div
-          style={{
-            display: 'grid',
-            gridTemplateColumns: '1fr 1fr',
-            gridTemplateRows: '250px 250px',
-            gap: 4,
-          }}
-        >
+        <div className='exterior-grid'>
           <button
-            className='gallery-btn'
+            className='gallery-btn exterior-grid-main'
             onClick={() => openLightbox(0)}
             onMouseEnter={hoverIn}
             onMouseLeave={hoverOut}
-            style={{ ...btnStyle, gridRow: '1 / 3', position: 'relative' }}
+            style={btnStyle}
           >
             <Image
               src={images[0].thumb || images[0].src}
@@ -89,51 +84,24 @@ export default function GalleryGrid({
               style={{ objectFit: 'cover', transition: 'transform 0.4s' }}
             />
           </button>
-          <button
-            className='gallery-btn'
-            onClick={() => openLightbox(1)}
-            onMouseEnter={hoverIn}
-            onMouseLeave={hoverOut}
-            style={{ ...btnStyle, position: 'relative' }}
-          >
-            <Image
-              src={images[1].thumb || images[1].src}
-              alt={images[1].alt}
-              fill
-              style={{ objectFit: 'cover', transition: 'transform 0.4s' }}
-            />
-          </button>
-          <div
-            style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 4 }}
-          >
-            <button
-              className='gallery-btn'
-              onClick={() => openLightbox(2)}
-              onMouseEnter={hoverIn}
-              onMouseLeave={hoverOut}
-              style={{ ...btnStyle, position: 'relative' }}
-            >
-              <Image
-                src={images[2].thumb || images[2].src}
-                alt={images[2].alt}
-                fill
-                style={{ objectFit: 'cover', transition: 'transform 0.4s' }}
-              />
-            </button>
-            <button
-              className='gallery-btn'
-              onClick={() => openLightbox(3)}
-              onMouseEnter={hoverIn}
-              onMouseLeave={hoverOut}
-              style={{ ...btnStyle, position: 'relative' }}
-            >
-              <Image
-                src={images[3].thumb || images[3].src}
-                alt={images[3].alt}
-                fill
-                style={{ objectFit: 'cover', transition: 'transform 0.4s' }}
-              />
-            </button>
+          <div className='exterior-grid-rest'>
+            {images.slice(1).map((img, i) => (
+              <button
+                key={i}
+                className='gallery-btn'
+                onClick={() => openLightbox(i + 1)}
+                onMouseEnter={hoverIn}
+                onMouseLeave={hoverOut}
+                style={{ ...btnStyle, position: 'relative' }}
+              >
+                <Image
+                  src={img.thumb || img.src}
+                  alt={img.alt}
+                  fill
+                  style={{ objectFit: 'cover', transition: 'transform 0.4s' }}
+                />
+              </button>
+            ))}
           </div>
         </div>
         <Lightbox
@@ -141,6 +109,7 @@ export default function GalleryGrid({
           close={() => setOpen(false)}
           index={index}
           slides={slides}
+          plugins={[Counter]}
         />
       </div>
     );
@@ -150,21 +119,16 @@ export default function GalleryGrid({
     return (
       <div className='container-fluid px-3 px-md-4'>
         <SectionHeader />
-        <div className='row g-2'>
-          {images.slice(0, 8).map((img, i) => (
-            <div key={i} className='col-6 col-md-3'>
+        <div className='interior-grid'>
+          <div className='interior-grid-rest'>
+            {images.slice(1, 5).map((img, i) => (
               <button
+                key={i}
                 className='gallery-btn'
-                onClick={() => openLightbox(i)}
+                onClick={() => openLightbox(i + 1)}
                 onMouseEnter={hoverIn}
                 onMouseLeave={hoverOut}
-                style={{
-                  ...btnStyle,
-                  display: 'block',
-                  width: '100%',
-                  aspectRatio: '4 / 3',
-                  position: 'relative',
-                }}
+                style={{ ...btnStyle, position: 'relative' }}
               >
                 <Image
                   src={img.thumb || img.src}
@@ -173,14 +137,29 @@ export default function GalleryGrid({
                   style={{ objectFit: 'cover', transition: 'transform 0.4s' }}
                 />
               </button>
-            </div>
-          ))}
+            ))}
+          </div>
+          <button
+            className='gallery-btn interior-grid-main'
+            onClick={() => openLightbox(0)}
+            onMouseEnter={hoverIn}
+            onMouseLeave={hoverOut}
+            style={btnStyle}
+          >
+            <Image
+              src={images[0].thumb || images[0].src}
+              alt={images[0].alt}
+              fill
+              style={{ objectFit: 'cover', transition: 'transform 0.4s' }}
+            />
+          </button>
         </div>
         <Lightbox
           open={open}
           close={() => setOpen(false)}
           index={index}
           slides={slides}
+          plugins={[Counter]}
         />
       </div>
     );
@@ -221,6 +200,7 @@ export default function GalleryGrid({
         close={() => setOpen(false)}
         index={index}
         slides={slides}
+        plugins={[Counter]}
       />
     </div>
   );

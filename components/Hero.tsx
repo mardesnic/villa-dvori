@@ -2,6 +2,7 @@
 
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
+import Button from '@/components/Button';
 
 export default function Hero() {
   const t = useTranslations('hero');
@@ -87,12 +88,12 @@ export default function Hero() {
             >
               {t('tagline')}
             </p>
-            <button
-              className='btn-villa-outline-light'
+            <Button
+              variant='ghost'
               onClick={() => document.getElementById('intro')?.scrollIntoView({ behavior: 'smooth' })}
             >
               {t('learnMore')}
-            </button>
+            </Button>
           </div>
         </div>
       </div>
