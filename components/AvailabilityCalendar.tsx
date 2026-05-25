@@ -50,7 +50,10 @@ function MonthCalendar({
   dayNames: string[];
 }) {
   const cells = buildCells(year, month);
-  const monthLabel = new Intl.DateTimeFormat(locale, { month: 'long', year: 'numeric' })
+  const monthLabel = new Intl.DateTimeFormat(locale, {
+    month: 'long',
+    year: 'numeric',
+  })
     .format(new Date(year, month))
     .toUpperCase();
 
@@ -60,23 +63,29 @@ function MonthCalendar({
         style={{
           textAlign: 'center',
           letterSpacing: '0.12em',
-          fontSize: '0.75rem',
-          fontWeight: 600,
-          marginBottom: '0.6rem',
+          fontSize: '0.8rem',
+          fontWeight: 700,
+          marginBottom: '2.5rem',
           color: '#555',
         }}
       >
         {monthLabel}
       </p>
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(7, 1fr)', gap: 2 }}>
+      <div
+        style={{
+          display: 'grid',
+          gridTemplateColumns: 'repeat(7, 1fr)',
+          gap: 2,
+        }}
+      >
         {dayNames.map((d, i) => (
           <div
             key={i}
             style={{
               textAlign: 'center',
-              fontSize: '0.6rem',
+              fontSize: '0.65rem',
               color: i === 5 ? '#b08d6a' : '#aaa',
-              fontWeight: 600,
+              fontWeight: 700,
               paddingBottom: 6,
             }}
           >
@@ -97,12 +106,18 @@ function MonthCalendar({
               key={i}
               style={{
                 textAlign: 'center',
-                padding: '5px 0',
-                fontSize: '0.75rem',
+                padding: '6px 0',
+                fontSize: '1.15rem',
                 borderRadius: 3,
                 background: 'transparent',
-                color: muted ? '#ccc' : booked_ ? '#bbb' : isSat ? '#b08d6a' : '#333',
-                fontWeight: isToday ? 700 : 400,
+                color: muted
+                  ? '#ccc'
+                  : booked_
+                    ? '#bbb'
+                    : isSat
+                      ? '#b08d6a'
+                      : '#333',
+                fontWeight: isToday ? 800 : 600,
                 textDecoration: booked_ ? 'line-through' : 'none',
                 position: 'relative',
               }}
@@ -147,17 +162,19 @@ export default function AvailabilityCalendar({
   today.setHours(0, 0, 0, 0);
 
   // Mon 1 Jan 2024 is a Monday — use as anchor to get Mon–Sun short names
-  const dayNames = Array.from({ length: 7 }, (_, i) =>
-    new Intl.DateTimeFormat(locale, { weekday: 'short' })
-      .format(new Date(2024, 0, 1 + i))
-      .replace(/\.$/, '') // remove trailing dot some locales add
+  const dayNames = Array.from(
+    { length: 7 },
+    (_, i) =>
+      new Intl.DateTimeFormat(locale, { weekday: 'short' })
+        .format(new Date(2024, 0, 1 + i))
+        .replace(/\.$/, '') // remove trailing dot some locales add
   );
 
   const m1 = new Date(today.getFullYear(), today.getMonth() + offset);
   const m2 = new Date(today.getFullYear(), today.getMonth() + offset + 1);
 
   return (
-    <div>
+    <div className='px-3 px-md-0'>
       <div
         style={{
           display: 'flex',
@@ -174,17 +191,28 @@ export default function AvailabilityCalendar({
             background: 'none',
             border: 'none',
             cursor: offset === 0 ? 'default' : 'pointer',
-            fontSize: '1.4rem',
+            fontSize: '2rem',
+            fontWeight: 700,
             color: offset === 0 ? '#ccc' : '#555',
-            padding: '0 4px',
+            padding: '0 8px',
             lineHeight: 1,
           }}
         >
           ‹
         </button>
 
-        <div style={{ display: 'flex', alignItems: 'center', gap: 12, fontSize: '0.62rem', color: '#aaa' }}>
-          <span style={{ color: '#bbb', textDecoration: 'line-through' }}>{t('calendarBooked')}</span>
+        <div
+          style={{
+            display: 'flex',
+            alignItems: 'center',
+            gap: 12,
+            fontSize: '0.75rem',
+            color: '#aaa',
+          }}
+        >
+          <span style={{ color: '#bbb', textDecoration: 'line-through' }}>
+            {t('calendarBooked')}
+          </span>
           <span style={{ color: '#333' }}>{t('calendarAvailable')}</span>
           <span style={{ color: '#b08d6a' }}>{t('calendarArrivalDay')}</span>
         </div>
@@ -197,9 +225,10 @@ export default function AvailabilityCalendar({
             background: 'none',
             border: 'none',
             cursor: offset >= MAX_OFFSET ? 'default' : 'pointer',
-            fontSize: '1.4rem',
+            fontSize: '2rem',
+            fontWeight: 700,
             color: offset >= MAX_OFFSET ? '#ccc' : '#555',
-            padding: '0 4px',
+            padding: '0 8px',
             lineHeight: 1,
           }}
         >
@@ -209,16 +238,40 @@ export default function AvailabilityCalendar({
 
       <div className='row g-4'>
         <div className='col-12 col-md-6'>
-          <MonthCalendar year={m1.getFullYear()} month={m1.getMonth()} booked={booked} today={today} locale={locale} dayNames={dayNames} />
+          <MonthCalendar
+            year={m1.getFullYear()}
+            month={m1.getMonth()}
+            booked={booked}
+            today={today}
+            locale={locale}
+            dayNames={dayNames}
+          />
         </div>
         <div className='col-12 col-md-6'>
-          <MonthCalendar year={m2.getFullYear()} month={m2.getMonth()} booked={booked} today={today} locale={locale} dayNames={dayNames} />
+          <MonthCalendar
+            year={m2.getFullYear()}
+            month={m2.getMonth()}
+            booked={booked}
+            today={today}
+            locale={locale}
+            dayNames={dayNames}
+          />
         </div>
       </div>
 
-      <p style={{ fontSize: '0.6rem', color: '#bbb', marginTop: '1rem', textAlign: 'right' }}>
+      <p
+        style={{
+          fontSize: '0.72rem',
+          color: '#bbb',
+          marginTop: '1rem',
+          textAlign: 'right',
+        }}
+      >
         {t('calendarUpdated')}{' '}
-        {new Intl.DateTimeFormat(locale, { dateStyle: 'medium', timeStyle: 'short' }).format(new Date(generated))}
+        {new Intl.DateTimeFormat(locale, {
+          dateStyle: 'medium',
+          timeStyle: 'short',
+        }).format(new Date(generated))}
       </p>
     </div>
   );

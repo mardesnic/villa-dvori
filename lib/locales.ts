@@ -2,6 +2,7 @@ export const LOCALES = [
   { code: 'en', flag: '/images/flags/gb.svg', label: 'English' },
   { code: 'pl', flag: '/images/flags/pl.svg', label: 'Polski' },
   { code: 'cs', flag: '/images/flags/cz.svg', label: 'Čeština' },
+  { code: 'hu', flag: '/images/flags/hu.svg', label: 'Magyar' },
   { code: 'de', flag: '/images/flags/de.svg', label: 'Deutsch' },
   { code: 'fr', flag: '/images/flags/fr.svg', label: 'Français' },
   { code: 'it', flag: '/images/flags/it.svg', label: 'Italiano' },

@@ -1,0 +1,141 @@
+{
+  "nav": {
+    "home": "FŐOLDAL",
+    "gallery": "GALÉRIA",
+    "location": "ELHELYEZKEDÉS",
+    "video": "VIDEÓTÚRA",
+    "bookNow": "FOGLALÁS",
+    "reviews": "VÉLEMÉNYEK"
+  },
+  "hero": {
+    "learnMore": "TUDJON MEG TÖBBET",
+    "tagline": "Mediterrán ház 12 fő részére · Pelješac, Horvátország",
+    "imgAlt": "A Villa Dvori légifelvétele"
+  },
+  "accommodation": {
+    "heading": "VILLA DVORI",
+    "subheading": "Mediterrán nyaralóház 12 fő részére",
+    "p1": "Szeretne egy fűtött medencéből gyönyörködni a csodás tengeri panorámában, gyönyörű mediterrán kertekkel körülvéve? A villa három különálló lakóegységből áll, mindegyikben két hálószoba, egy fürdőszoba és egy nappali található. Emellett egy tágas, teljesen felszerelt konyha és étkező is a vendégek rendelkezésére áll, amely saját fürdőszobával van ellátva.",
+    "p2": "A házat úgy tervezték meg, hogy tökéletes helyszínt biztosítson több család vagy baráti társaság közös kikapcsolódásához, miközben mindenki megőrizheti a saját privát szféráját. Minden lakóegység televízióval, Wi-Fi-vel és légkondicionálóval felszerelt.",
+    "detailsLabel": "Szállásinformációk",
+    "details": {
+      "accommodates": "MAX. FÉRŐHELY",
+      "rooms": "SZOBÁK",
+      "beds": "FRANCIAÁGYAK (KING SIZE)",
+      "bathrooms": "FÜRDŐSZOBÁK",
+      "ac": "LÉGKONDICIONÁLÓ",
+      "wifi": "WI-FI",
+      "minStay": "MIN. TARTÓZKODÁS",
+      "arrival": "ÉRKEZÉS",
+      "area": "TELJES ALAPTERÜLET"
+    },
+    "values": {
+      "minStay": "7 éjszaka",
+      "arrival": "Szombat"
+    }
+  },
+  "location": {
+    "heading": "ELHELYEZKEDÉS",
+    "subtitle": "Podobuče, Pelješac, Horvátország",
+    "description": "Podobuče egy festői, csendes halászfalu a Pelješac-félszigeten — két kiváló étteremmel, kristálytiszta tengerrel és csodálatosan nyugodt életritmussal. Innen vízi taxival könnyen elérhető Korčula szigete, felfedezhetők az Mljet Nemzeti Park tavai és erdői, megkóstolhatók a félsziget híres Dingač borai, vagy egy autós kirándulással felfedezhető Dubrovnik történelmi óvárosa is.",
+    "destinations": {
+      "podobuce": {
+        "name": "Podobuče",
+        "sub": "Pelješac-félsziget"
+      },
+      "korcula": {
+        "name": "Korčula-sziget",
+        "sub": "30 perc hajóval"
+      },
+      "mljet": {
+        "name": "Mljet NP",
+        "sub": "1 óra hajóval"
+      },
+      "dubrovnik": {
+        "name": "Dubrovnik",
+        "sub": "2 óra autóval"
+      }
+    }
+  },
+  "team": {
+    "label": "Az Önök házigazdái",
+    "headingItalic": "A Villa Dvori csapata,",
+    "headingStrong": "EGY CSALÁD AZ ÖNÖK SZOLGÁLATÁBAN",
+    "description": "Egy dubrovniki család vagyunk, és azért építettük a Villa Dvorit, hogy megteremtsük a tökéletes helyszínt a több családdal vagy barátokkal közösen utazók számára. Mivel a közelben lakunk, bármikor szívesen állunk rendelkezésükre — legyen szó helyi éttermi ajánlásokról, vízi taxi szervezéséről, vagy egyszerűen egy szívélyes, meleg fogadtatásról az érkezéskor.",
+    "imgAlt": "A Villa Dvori csapata – az Önök házigazda családja"
+  },
+  "video": {
+    "label": "Videótúra"
+  },
+  "contact": {
+    "label": "Elérhetőség és foglalás",
+    "heading": "KAPCSOLAT",
+    "subtitle": "Küldje el nekünk ajánlatkérését — örömmel készítünk Önnek egy személyre szabott ajánlatot",
+    "airbnbText": "Elérhető az alábbi platformon is:",
+    "availabilityLabel": "Elérhetőség",
+    "calendarBooked": "foglalt",
+    "calendarAvailable": "szabad",
+    "calendarArrivalDay": "szombat — érkezési nap",
+    "calendarUpdated": "Frissítve",
+    "rulesLabel": "Házirend",
+    "rules": [
+      "A Villa Dvori kizárólag egyben, a teljes házként adható bérbe.",
+      "A minimális tartózkodási idő a Villa Dvoriban 7 éjszaka.",
+      "A villa bérlése kizárólag szombattól szombatig tartó turnusokban lehetséges.",
+      "A villa maximum 12 fő fogadására alkalmas, beleértve a gyermekeket és a csecsemőket is.",
+      "A foglalás véglegesítéséhez a teljes bérleti díj 25%-ának megfelelő előleg fizetendő.",
+      "A bejelentkezés 16:00 órától lehetséges, a kijelentkezés délelőtt 10:00 óráig történik."
+    ]
+  },
+  "pages": {
+    "home": {
+      "title": "Villa Dvori | Mediterrán nyaralóház 12 főre | Pelješac, Horvátország",
+      "description": "Villa Dvori — luxus nyaralóvilla Podobučéban, a Pelješac-félszigeten, Horvátországban. Fűtött medence, mediterrán kertek, tengeri panoráma. Akár 12 vendég részére.",
+      "exteriorTitle": "Külső terek",
+      "exteriorSubtitle": "Kertek, medence, teraszok és panorámás kilátás az Adriai-tengerre",
+      "interiorTitle": "Belső terek",
+      "interiorSubtitle": "Hálószobák, hangulatos közösségi terek és teljesen felszerelt konyha"
+    },
+    "gallery": {
+      "title": "Fotógaléria | Villa Dvori — Pelješac, Horvátország",
+      "description": "Tekintse meg a Villa Dvori összes fotóját — fűtött medence, dús kertek, teraszok, elegáns hálószobák, konyha és lenyűgöző tengeri panoráma Podobučéban.",
+      "heading": "GALÉRIA",
+      "subtitle": "Autentikus kőfalak, fűtött medence és mediterrán kert növényvilága",
+      "exteriorTitle": "Külső terek",
+      "exteriorSubtitle": "Kertek, medence, teraszok és panorámás kilátás az Adriai-tengerre",
+      "interiorTitle": "Belső terek",
+      "interiorSubtitle": "Hálószobák, hangulatos közösségi terek és teljesen felszerelt konyha",
+      "allPhotosTitle": "Összes fotó",
+      "imgAlt": "A Villa Dvori úszómedencéje"
+    },
+    "location": {
+      "title": "Elhelyezkedés és megközelítés | Villa Dvori — Pelješac, Horvátország",
+      "description": "A Villa Dvori Podobučéban, a Pelješac-félsziget egyik csendes halászfalujában található. Fedezze fel a közeli Korčula és Mljet szigetét, valamint Dubrovnikot."
+    },
+    "video": {
+      "title": "Videótúra | Villa Dvori — Pelješac, Horvátország",
+      "description": "Ismerje meg a Villa Dvorit a Pelješac-félszigeten található Podobučéban egy exkluzív videótúrán keresztül. Tekintse meg a medencét, a kerteket és a csodás adriai panorámát.",
+      "heading": "GYŐZŐDJÖN MEG RÓLA SAJÁT SZEMÉVEL"
+    },
+    "contact": {
+      "title": "Kapcsolat és foglalás | Villa Dvori — Pelješac, Horvátország",
+      "description": "Lépjen kapcsolatba a Villa Dvorival az elérhetőség ellenőrzéséhez és egyedi ajánlatkéréshez. Örömmel segítünk horvátországi álomnyaralása megtervezésében.",
+      "heading": "VEGYE FEL VELÜNK A KAPCSOLATOT",
+      "subtitle": "Szeretettel várjuk Önöket"
+    },
+    "reviews": {
+      "title": "Vendégvélemények | Villa Dvori — Pelješac, Horvátország",
+      "description": "Olvassa el, mit mondanak vendégeink a Villa Dvoriról — a Pelješac-félszigeten, Podobučéban található luxus nyaralóvilláról.",
+      "heading": "VÉLEMÉNYEK",
+      "subtitle": "Ahol emlékek születnek és történetek íródnak",
+      "imgAlt": "A Villa Dvori medencéje és mediterrán kertje"
+    }
+  },
+  "reviews": {
+    "label": "Vendégvélemények",
+    "headingItalic": "Amit vendégeink mondanak",
+    "headingStrong": "RÓLUNK",
+    "viewAll": "Összes vélemény megtekintése",
+    "viewOnGoogle": "Összes vélemény megtekintése a Google Térképen"
+  }
+}

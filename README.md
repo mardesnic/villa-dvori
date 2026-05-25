@@ -62,7 +62,9 @@ Edit `data/availability.json` directly and push. Each entry is a `{ "start": "YY
 ### Testing the iCal fetch locally
 
 ```bash
-ICAL_URL=https://example.com/calendar.ics node scripts/fetch-availability.mjs
+ICAL_URL='https://example.com/calendar.ics' node scripts/fetch-availability.mjs
 ```
+
+Use single quotes around the URL — the `&` in Airbnb's iCal URLs is interpreted by the shell as a background operator if unquoted, causing the variable to appear empty.
 
 A test ICS file matching the current data is available at `public/availability-test.ics` and is served from the live site at `/availability-test.ics`.
