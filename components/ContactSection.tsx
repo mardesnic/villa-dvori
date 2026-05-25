@@ -1,6 +1,6 @@
 import { getTranslations } from 'next-intl/server';
 import availabilityData from '@/data/availability.json';
-import AvailabilityCalendar from './AvailabilityCalendar';
+import AvailabilityCalendarClient from './AvailabilityCalendarClient';
 import Button from '@/components/Button';
 
 export default async function ContactSection() {
@@ -34,14 +34,21 @@ export default async function ContactSection() {
                 {t('subtitle')}
               </p>
               <div className='d-flex flex-column flex-sm-row justify-content-center gap-3'>
-                <Button variant='solid' as='a' href='mailto:sanda.desnica@gmail.com'>
+                <Button
+                  variant='solid'
+                  as='a'
+                  href='mailto:sanda.desnica@gmail.com'
+                >
                   sanda.desnica@gmail.com
                 </Button>
                 <Button variant='solid' as='a' href='tel:+385914714378'>
                   +385 91 471 4378
                 </Button>
               </div>
-              <p className='mt-4 mb-0' style={{ fontSize: '0.8rem', color: '#888' }}>
+              <p
+                className='mt-4 mb-0'
+                style={{ fontSize: '0.8rem', color: '#888' }}
+              >
                 {t('airbnbText')}{' '}
                 <a
                   href='https://www.airbnb.com/rooms/1560794423152204794'
@@ -59,10 +66,12 @@ export default async function ContactSection() {
 
       <div style={{ background: '#fff' }}>
         <div className='container py-5'>
-          <p className='section-label text-center mb-4'>{t('availabilityLabel')}</p>
+          <p className='section-label text-center mb-4'>
+            {t('availabilityLabel')}
+          </p>
           <div className='row justify-content-center'>
             <div className='col-12 col-lg-10'>
-              <AvailabilityCalendar
+              <AvailabilityCalendarClient
                 booked={availabilityData.booked}
                 generated={availabilityData.generated}
               />
@@ -75,7 +84,9 @@ export default async function ContactSection() {
         <div className='container py-5'>
           <div className='row justify-content-center'>
             <div className='col-12 col-lg-8 mx-auto'>
-              <p className='section-label text-center mb-4'>{t('rulesLabel')}</p>
+              <p className='section-label text-center mb-4'>
+                {t('rulesLabel')}
+              </p>
               <div className='row gy-3'>
                 {rules.map((rule, i) => (
                   <div key={i} className='col-md-6'>
