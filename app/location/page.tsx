@@ -6,6 +6,9 @@ import '../globals.css';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://villadvori.com'),
+  alternates: {
+    canonical: 'https://villadvori.com/location/',
+  },
   title: 'Location | Villa Dvori — Peljesac, Croatia',
   description:
     "Villa Dvori is located in Podobuce, a quiet fishermen's village on the Pelješac peninsula. Explore nearby Korčula, Mljet, and Dubrovnik.",

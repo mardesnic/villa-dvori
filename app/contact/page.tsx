@@ -6,6 +6,9 @@ import '../globals.css';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://villadvori.com'),
+  alternates: {
+    canonical: 'https://villadvori.com/contact/',
+  },
   title: 'Contact | Villa Dvori — Peljesac, Croatia',
   description:
     'Contact Villa Dvori to check availability and get a price offer. We are happy to help plan your perfect Croatian holiday.',

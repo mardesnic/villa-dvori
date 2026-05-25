@@ -9,9 +9,11 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'pages.contact' });
+  const canonical = locale === 'en' ? 'https://villadvori.com/contact/' : `https://villadvori.com/${locale}/contact/`;
   return {
     title: t('title'),
     description: t('description'),
+    alternates: { canonical },
   };
 }
 

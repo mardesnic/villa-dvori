@@ -6,6 +6,9 @@ import '../globals.css';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://villadvori.com'),
+  icons: {
+    apple: '/apple-touch-icon.png',
+  },
   openGraph: {
     type: 'website',
     images: [{ url: '/images/hero.webp', alt: 'Villa Dvori exterior view' }],

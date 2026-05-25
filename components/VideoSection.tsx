@@ -20,7 +20,7 @@ export default async function VideoSection({
     >
       <Image
         src='/images/hero.webp'
-        alt=''
+        alt='Villa Dvori exterior with Mediterranean gardens and sea view'
         fill
         aria-hidden
         style={{

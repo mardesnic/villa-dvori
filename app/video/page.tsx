@@ -6,6 +6,9 @@ import '../globals.css';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://villadvori.com'),
+  alternates: {
+    canonical: 'https://villadvori.com/video/',
+  },
   title: 'Video Tour | Villa Dvori — Peljesac, Croatia',
   description:
     'Watch a video tour of Villa Dvori in Podobuce, Peljesac, Croatia. See the pool, gardens, terraces, and stunning Adriatic sea views.',

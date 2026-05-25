@@ -19,7 +19,7 @@ export default function Hero() {
       {/* Blurred background */}
       <Image
         src='/images/hero.webp'
-        alt=''
+        alt='Villa Dvori exterior with Mediterranean gardens and sea view'
         fill
         aria-hidden
         style={{
