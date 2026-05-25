@@ -45,6 +45,7 @@ export default function Footer() {
         <p
           className='text-center mb-0 mt-3'
           style={{ fontSize: '0.7rem', color: '#aaa', letterSpacing: '0.04em' }}
+          suppressHydrationWarning
         >
           © {new Date().getFullYear()} Villa Dvori · Podobuče, Pelješac, Croatia
         </p>

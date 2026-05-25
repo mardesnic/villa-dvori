@@ -30,11 +30,12 @@ export default function PageShell({
       lang={locale}
       data-scroll-behavior='smooth'
       className={`${josefin.variable} ${garamond.variable}`}
+      suppressHydrationWarning
     >
       <head>
         <link rel='preload' href='/images/hero.webp' as='image' type='image/webp' />
       </head>
-      <body>
+      <body suppressHydrationWarning>
         <NextIntlClientProvider messages={messages}>
           <Navigation />
           {children}
