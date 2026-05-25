@@ -450,6 +450,118 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://villadvori.com/reviews/</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villadvori.com/reviews/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villadvori.com/reviews/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://villadvori.com/hr/reviews/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villadvori.com/pl/reviews/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villadvori.com/fr/reviews/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://villadvori.com/cs/reviews/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villadvori.com/de/reviews/"/>
+    <xhtml:link rel="alternate" hreflang="sl" href="https://villadvori.com/sl/reviews/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villadvori.com/it/reviews/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://villadvori.com/hr/reviews/</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villadvori.com/reviews/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villadvori.com/reviews/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://villadvori.com/hr/reviews/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villadvori.com/pl/reviews/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villadvori.com/fr/reviews/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://villadvori.com/cs/reviews/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villadvori.com/de/reviews/"/>
+    <xhtml:link rel="alternate" hreflang="sl" href="https://villadvori.com/sl/reviews/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villadvori.com/it/reviews/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://villadvori.com/pl/reviews/</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villadvori.com/reviews/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villadvori.com/reviews/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://villadvori.com/hr/reviews/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villadvori.com/pl/reviews/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villadvori.com/fr/reviews/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://villadvori.com/cs/reviews/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villadvori.com/de/reviews/"/>
+    <xhtml:link rel="alternate" hreflang="sl" href="https://villadvori.com/sl/reviews/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villadvori.com/it/reviews/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://villadvori.com/fr/reviews/</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villadvori.com/reviews/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villadvori.com/reviews/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://villadvori.com/hr/reviews/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villadvori.com/pl/reviews/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villadvori.com/fr/reviews/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://villadvori.com/cs/reviews/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villadvori.com/de/reviews/"/>
+    <xhtml:link rel="alternate" hreflang="sl" href="https://villadvori.com/sl/reviews/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villadvori.com/it/reviews/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://villadvori.com/cs/reviews/</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villadvori.com/reviews/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villadvori.com/reviews/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://villadvori.com/hr/reviews/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villadvori.com/pl/reviews/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villadvori.com/fr/reviews/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://villadvori.com/cs/reviews/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villadvori.com/de/reviews/"/>
+    <xhtml:link rel="alternate" hreflang="sl" href="https://villadvori.com/sl/reviews/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villadvori.com/it/reviews/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://villadvori.com/de/reviews/</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villadvori.com/reviews/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villadvori.com/reviews/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://villadvori.com/hr/reviews/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villadvori.com/pl/reviews/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villadvori.com/fr/reviews/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://villadvori.com/cs/reviews/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villadvori.com/de/reviews/"/>
+    <xhtml:link rel="alternate" hreflang="sl" href="https://villadvori.com/sl/reviews/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villadvori.com/it/reviews/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://villadvori.com/sl/reviews/</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villadvori.com/reviews/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villadvori.com/reviews/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://villadvori.com/hr/reviews/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villadvori.com/pl/reviews/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villadvori.com/fr/reviews/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://villadvori.com/cs/reviews/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villadvori.com/de/reviews/"/>
+    <xhtml:link rel="alternate" hreflang="sl" href="https://villadvori.com/sl/reviews/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villadvori.com/it/reviews/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://villadvori.com/it/reviews/</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villadvori.com/reviews/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villadvori.com/reviews/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://villadvori.com/hr/reviews/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villadvori.com/pl/reviews/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villadvori.com/fr/reviews/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://villadvori.com/cs/reviews/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villadvori.com/de/reviews/"/>
+    <xhtml:link rel="alternate" hreflang="sl" href="https://villadvori.com/sl/reviews/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villadvori.com/it/reviews/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://villadvori.com/contact/</loc>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://villadvori.com/contact/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://villadvori.com/contact/"/>
