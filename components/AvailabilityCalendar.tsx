@@ -227,6 +227,7 @@ export default function AvailabilityCalendar({
             gap: 12,
             fontSize: '0.75rem',
             color: '#aaa',
+            textTransform: 'lowercase',
           }}
         >
           <span style={{ color: '#bbb', textDecoration: 'line-through' }}>

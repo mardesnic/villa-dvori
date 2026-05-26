@@ -1,36 +1,20 @@
 import Image from 'next/image';
-import ExteriorInteriorGalleries from '@/components/ExteriorInteriorGalleries';
+import AccommodationSection from '@/components/AccommodationSection';
 import SpaceSection from '@/components/SpaceSection';
-import GalleryGrid from '@/components/GalleryGrid';
 import ContactSection from '@/components/ContactSection';
-import { allPhotos } from '@/data/images';
 
 interface Props {
   imgAlt: string;
   heading: string;
   subtitle: string;
-  exteriorTitle: string;
-  exteriorSubtitle: string;
-  interiorTitle: string;
-  interiorSubtitle: string;
-  allPhotosTitle: string;
 }
 
-export default function GalleryPageContent({
-  imgAlt,
-  heading,
-  subtitle,
-  exteriorTitle,
-  exteriorSubtitle,
-  interiorTitle,
-  interiorSubtitle,
-  allPhotosTitle,
-}: Props) {
+export default function AccommodationPageContent({ imgAlt, heading, subtitle }: Props) {
   return (
     <main style={{ paddingTop: 56 }}>
       <div style={{ position: 'relative', height: 320, overflow: 'hidden' }}>
         <Image
-          src='/images/gallery/9.webp'
+          src='/images/gallery/interior/1.webp'
           alt={imgAlt}
           fill
           style={{ objectFit: 'cover', objectPosition: 'center 50%' }}
@@ -74,19 +58,8 @@ export default function GalleryPageContent({
         </div>
       </div>
 
-      <ExteriorInteriorGalleries
-        exteriorTitle={exteriorTitle}
-        exteriorSubtitle={exteriorSubtitle}
-        interiorTitle={interiorTitle}
-        interiorSubtitle={interiorSubtitle}
-      />
-
-      <div className='pb-4'>
-        <GalleryGrid images={allPhotos} layout='grid' title={allPhotosTitle} />
-      </div>
-
+      <AccommodationSection />
       <SpaceSection />
-
       <ContactSection />
     </main>
   );

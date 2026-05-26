@@ -20,7 +20,11 @@ export default async function LocationPage() {
 
   return (
     <PageShell locale='en' messages={messages}>
-      <LocationPageContent />
+      <LocationPageContent
+        imgAlt='Podobuče village on the Pelješac peninsula'
+        heading='LOCATION'
+        subtitle='Podobuče, Pelješac, Croatia'
+      />
     </PageShell>
   );
 }

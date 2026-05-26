@@ -7,8 +7,9 @@ import { LOCALES } from '@/lib/locales';
 
 const navKeys = [
   { href: '/' as const, key: 'home' },
-  { href: '/photo' as const, key: 'gallery' },
+  { href: '/accommodation' as const, key: 'accommodation' },
   { href: '/location' as const, key: 'location' },
+  { href: '/photo' as const, key: 'gallery' },
   { href: '/video' as const, key: 'video' },
   { href: '/reviews' as const, key: 'reviews' },
   { href: '/contact' as const, key: 'bookNow' },
@@ -66,7 +67,12 @@ export default function Navigation() {
             style={{ display: 'block', filter: 'invert(1)' }}
           />
           <span
-            style={{ lineHeight: 1, letterSpacing: '0.22em', position: 'relative', top: 3 }}
+            style={{
+              lineHeight: 1,
+              letterSpacing: '0.22em',
+              position: 'relative',
+              top: 3,
+            }}
           >
             VILLA DVORI
           </span>

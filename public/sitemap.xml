@@ -137,6 +137,141 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://villadvori.com/accommodation/</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villadvori.com/accommodation/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villadvori.com/accommodation/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://villadvori.com/hr/accommodation/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villadvori.com/pl/accommodation/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villadvori.com/fr/accommodation/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://villadvori.com/cs/accommodation/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villadvori.com/de/accommodation/"/>
+    <xhtml:link rel="alternate" hreflang="sl" href="https://villadvori.com/sl/accommodation/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villadvori.com/it/accommodation/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://villadvori.com/hu/accommodation/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://villadvori.com/hr/accommodation/</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villadvori.com/accommodation/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villadvori.com/accommodation/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://villadvori.com/hr/accommodation/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villadvori.com/pl/accommodation/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villadvori.com/fr/accommodation/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://villadvori.com/cs/accommodation/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villadvori.com/de/accommodation/"/>
+    <xhtml:link rel="alternate" hreflang="sl" href="https://villadvori.com/sl/accommodation/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villadvori.com/it/accommodation/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://villadvori.com/hu/accommodation/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://villadvori.com/pl/accommodation/</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villadvori.com/accommodation/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villadvori.com/accommodation/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://villadvori.com/hr/accommodation/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villadvori.com/pl/accommodation/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villadvori.com/fr/accommodation/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://villadvori.com/cs/accommodation/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villadvori.com/de/accommodation/"/>
+    <xhtml:link rel="alternate" hreflang="sl" href="https://villadvori.com/sl/accommodation/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villadvori.com/it/accommodation/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://villadvori.com/hu/accommodation/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://villadvori.com/fr/accommodation/</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villadvori.com/accommodation/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villadvori.com/accommodation/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://villadvori.com/hr/accommodation/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villadvori.com/pl/accommodation/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villadvori.com/fr/accommodation/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://villadvori.com/cs/accommodation/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villadvori.com/de/accommodation/"/>
+    <xhtml:link rel="alternate" hreflang="sl" href="https://villadvori.com/sl/accommodation/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villadvori.com/it/accommodation/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://villadvori.com/hu/accommodation/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://villadvori.com/cs/accommodation/</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villadvori.com/accommodation/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villadvori.com/accommodation/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://villadvori.com/hr/accommodation/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villadvori.com/pl/accommodation/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villadvori.com/fr/accommodation/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://villadvori.com/cs/accommodation/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villadvori.com/de/accommodation/"/>
+    <xhtml:link rel="alternate" hreflang="sl" href="https://villadvori.com/sl/accommodation/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villadvori.com/it/accommodation/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://villadvori.com/hu/accommodation/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://villadvori.com/de/accommodation/</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villadvori.com/accommodation/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villadvori.com/accommodation/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://villadvori.com/hr/accommodation/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villadvori.com/pl/accommodation/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villadvori.com/fr/accommodation/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://villadvori.com/cs/accommodation/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villadvori.com/de/accommodation/"/>
+    <xhtml:link rel="alternate" hreflang="sl" href="https://villadvori.com/sl/accommodation/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villadvori.com/it/accommodation/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://villadvori.com/hu/accommodation/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://villadvori.com/sl/accommodation/</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villadvori.com/accommodation/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villadvori.com/accommodation/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://villadvori.com/hr/accommodation/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villadvori.com/pl/accommodation/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villadvori.com/fr/accommodation/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://villadvori.com/cs/accommodation/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villadvori.com/de/accommodation/"/>
+    <xhtml:link rel="alternate" hreflang="sl" href="https://villadvori.com/sl/accommodation/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villadvori.com/it/accommodation/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://villadvori.com/hu/accommodation/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://villadvori.com/it/accommodation/</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villadvori.com/accommodation/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villadvori.com/accommodation/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://villadvori.com/hr/accommodation/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villadvori.com/pl/accommodation/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villadvori.com/fr/accommodation/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://villadvori.com/cs/accommodation/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villadvori.com/de/accommodation/"/>
+    <xhtml:link rel="alternate" hreflang="sl" href="https://villadvori.com/sl/accommodation/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villadvori.com/it/accommodation/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://villadvori.com/hu/accommodation/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://villadvori.com/hu/accommodation/</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villadvori.com/accommodation/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villadvori.com/accommodation/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://villadvori.com/hr/accommodation/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villadvori.com/pl/accommodation/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villadvori.com/fr/accommodation/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://villadvori.com/cs/accommodation/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villadvori.com/de/accommodation/"/>
+    <xhtml:link rel="alternate" hreflang="sl" href="https://villadvori.com/sl/accommodation/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villadvori.com/it/accommodation/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://villadvori.com/hu/accommodation/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://villadvori.com/photo/</loc>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://villadvori.com/photo/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://villadvori.com/photo/"/>

@@ -1,6 +1,7 @@
 {
   "nav": {
     "home": "HOME",
+    "accommodation": "ACCOMMODATION",
     "gallery": "GALLERY",
     "location": "LOCATION",
     "video": "VIDEO TOUR",
@@ -15,7 +16,7 @@
   "accommodation": {
     "heading": "VILLA DVORI",
     "subheading": "Mediterranean house for 12",
-    "p1": "Would you like to enjoy a sea view from a heated swimming pool surrounded by beautiful Mediterranean gardens? The villa is composed of three independent residential units, each featuring two bedrooms, a bathroom, and a living room. It also includes a spacious, fully equipped kitchen and dining area served by its own bathroom.",
+    "p1": "Would you like to enjoy a sea view from a heated swimming pool surrounded by beautiful Mediterranean gardens? The villa is composed of three independent residential units, each featuring two bedrooms, a bathroom, and a living room. It also includes a spacious, fully equipped kitchen and dining area with its own dedicated bathroom.",
     "p2": "It was designed to create the perfect setting for multiple families or groups of friends who wish to spend quality time together while maintaining their own privacy and personal space. All units are equipped with a TV, Wi-Fi, and air conditioning.",
     "detailsLabel": "Accommodation details",
     "details": {
@@ -60,7 +61,7 @@
   "team": {
     "label": "Your Hosts",
     "headingItalic": "The Villa Dvori team,",
-    "headingStrong": "A FAMILY",
+    "headingStrong": "A FAMILY AT YOUR SERVICE",
     "description": "We are a family from Dubrovnik who built Villa Dvori to create the perfect holiday retreat for families and groups traveling together. Living nearby, we are always on hand to assist you — whether you need local restaurant recommendations, help organizing a boat taxi, or simply a warm welcome upon your arrival.",
     "imgAlt": "The Villa Dvori team — A family at your service"
   },
@@ -75,7 +76,7 @@
     "availabilityLabel": "Availability",
     "calendarBooked": "booked",
     "calendarAvailable": "available",
-    "calendarArrivalDay": "saturday — arrival day",
+    "calendarArrivalDay": "Saturday — Arrival Day",
     "calendarUpdated": "Updated",
     "rulesLabel": "House rules",
     "rules": [
@@ -96,7 +97,8 @@
       "interiorTitle": "Interior Spaces",
       "interiorSubtitle": "Bedrooms, cozy living areas & a fully equipped kitchen",
       "viewAllPhotos": "View all photos",
-      "floorPlanTitle": "Floor Plan"
+      "floorPlanTitle": "Floor Plan",
+      "floorPlanSubtitle": "Three self-contained apartments across two floors"
     },
     "gallery": {
       "title": "Photo Gallery | Villa Dvori — Pelješac, Croatia",
@@ -109,11 +111,15 @@
       "interiorSubtitle": "Bedrooms, cozy living areas & a fully equipped kitchen",
       "allPhotosTitle": "All photos",
       "floorPlanTitle": "Floor Plan",
+      "floorPlanSubtitle": "Three self-contained apartments across two floors",
       "imgAlt": "Villa Dvori swimming pool"
     },
     "location": {
       "title": "Location & Directions | Villa Dvori — Pelješac, Croatia",
-      "description": "Villa Dvori is nestled in Podobuče, a quiet fishing village on the Pelješac peninsula. Discover nearby Korčula, Mljet, and Dubrovnik."
+      "description": "Villa Dvori is nestled in Podobuče, a quiet fishing village on the Pelješac peninsula. Discover nearby Korčula, Mljet, and Dubrovnik.",
+      "heading": "LOCATION",
+      "subtitle": "Podobuče, Pelješac, Croatia",
+      "imgAlt": "Podobuče village on the Pelješac peninsula"
     },
     "video": {
       "title": "Video Tour | Villa Dvori — Pelješac, Croatia",
@@ -126,6 +132,13 @@
       "heading": "GET IN TOUCH",
       "subtitle": "We look forward to hosting you"
     },
+    "accommodation": {
+      "title": "Accommodation | Villa Dvori — Pelješac, Croatia",
+      "description": "Explore the accommodation at Villa Dvori — three independent apartments, each with two bedrooms and a private bathroom, sleeping up to 12 guests in Podobuče, Pelješac.",
+      "heading": "ACCOMMODATION",
+      "subtitle": "Three private apartments · a shared kitchen · a heated pool",
+      "imgAlt": "Villa Dvori accommodation"
+    },
     "reviews": {
       "title": "Guest Reviews | Villa Dvori — Pelješac, Croatia",
       "description": "Read what our guests say about Villa Dvori — a luxury holiday villa in Podobuče, Pelješac, Croatia.",
@@ -133,6 +146,14 @@
       "subtitle": "Memories made, stories shared",
       "imgAlt": "Villa Dvori pool and garden"
     }
+  },
+  "space": {
+    "label": "The Space",
+    "headingItalic": "Three apartments,",
+    "headingStrong": "ONE VILLA",
+    "p1": "The accommodation comprises three independent apartments, each with two bedrooms, a living room, a private bathroom, and a separate toilet — offering comfort and privacy for every group.",
+    "p2": "Shared spaces include a spacious, fully equipped kitchen and barbecue area designed to inspire your culinary creativity, generous terraces with two dining tables and comfortable outdoor armchairs, and a terrace dedicated to table tennis. The heated pool is flanked by two sunbathing areas, set within a lush Mediterranean garden home to a towering palm tree.",
+    "floorPlanAlt": "Villa Dvori floor plan"
   },
   "reviews": {
     "label": "Guest Reviews",

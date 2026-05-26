@@ -1,6 +1,7 @@
 {
   "nav": {
     "home": "HOME",
+    "accommodation": "ALLOGGIO",
     "gallery": "GALLERIA",
     "location": "POSIZIONE",
     "video": "VIDEO TOUR",
@@ -15,8 +16,8 @@
   "accommodation": {
     "heading": "VILLA DVORI",
     "subheading": "Dimora mediterranea per 12",
-    "p1": "Desiderate godervi la vista sul mare da una piscina riscaldata circondata da splendidi giardini mediterranei? La villa è composta da tre unità abitative indipendenti, ciascuna dotata di due camere da letto, un bagno e un soggiorno. Dispone inoltre di una spaziosa zona cucina/pranzo completamente attrezzata e servita da un proprio bagno.",
-    "p2": "La struttura è stata concepita per offrire lo spazio ideale a più famiglie o gruppi di amici che desiderano trascorrere le vacanze insieme, pur mantenendo la propria privacy. Tutte le unità sono dotate di TV, Wi-Fi e aria condizionata.",
+    "p1": "Desiderate godervi la vista sul mare da una piscina riscaldata circondata da splendidi giardini mediterranei? La villa è composta da tre unità abitative indipendenti, ciascuna dotata di due camere da letto, un bagno e un soggiorno. Dispone inoltre di una spaziosa zona cucina/pranzo completamente attrezzata e servita da un proprio bagno dedicato.",
+    "p2": "La struttura è stata concepita per offrire lo spazio ideale a più famiglie o gruppi di amici che desiderano trascorrere le vacanze insieme, pur mantenendo la propria privacy e i propri spazi personali. Tutte le unità sono dotate di TV, Wi-Fi e aria condizionata.",
     "detailsLabel": "Dettagli dell'alloggio",
     "details": {
       "accommodates": "CAPACITÀ MASSIMA",
@@ -37,7 +38,7 @@
   "location": {
     "heading": "POSIZIONE",
     "subtitle": "Podobuče, Pelješac, Croazia",
-    "description": "Podobuče è un tranquillo villaggio di pescatori sulla penisola di Pelješac, con due ristoranti, un mare cristallino e un ritmo di vita rilassante. Da qui potrete raggiungere facilmente l'isola di Korčula in barca, esplorare i laghi e i boschi del Parco Nazionale di Mljet, degustare i rinomati vini Dingač della penisola o concedervi un'escursione in auto a Dubrovnik per una giornata nella splendida città vecchia.",
+    "description": "Podobuče è un tranquillo villaggio di pescatori sulla penisola di Pelješac, che vanta due ristoranti, un mare cristallino e un ritmo di vita meravigliosamente rilassante. Da qui potrete raggiungere facilmente l'isola di Korčula in barca, esplorare i laghi e i boschi del Parco Nazionale di Mljet, degustare i rinomati vini Dingač della penisola o concedervi un'escursione in auto a Dubrovnik per una giornata nella splendida città vecchia storica.",
     "destinations": {
       "podobuce": {
         "name": "Podobuče",
@@ -60,8 +61,8 @@
   "team": {
     "label": "I vostri host",
     "headingItalic": "Il team di Villa Dvori,",
-    "headingStrong": "UNA FAMIGLIA",
-    "description": "Siamo una famiglia di Dubrovnik e abbiamo costruito Villa Dvori con il desiderio di creare il luogo ideale per accogliere più famiglie che amano viaggiare insieme. Viviamo nelle vicinanze e siamo sempre a vostra completa disposizione — che sia per consigli sui ristoranti, per organizzare un taxi boat o semplicemente per risuonarvi un caloroso benvenuto al vostro arrivo.",
+    "headingStrong": "UNA FAMIGLIA AL VOSTRO SERVIZIO",
+    "description": "Siamo una famiglia di Dubrovnik e abbiamo costruito Villa Dvori con il desiderio di creare il rifugio ideale per accogliere famiglie e gruppi che amano viaggiare insieme. Viviamo nelle vicinanze e siamo sempre a vostra completa disposizione — sia che desideriate consigli sui ristoranti locali, sia che abbiate bisogno di aiuto per organizzare un taxi boat o semplicemente per offrirvi un caloroso benvenuto al vostro arrivo.",
     "imgAlt": "Il team di Villa Dvori — Una famiglia al vostro servizio"
   },
   "video": {
@@ -75,32 +76,33 @@
     "availabilityLabel": "Disponibilità",
     "calendarBooked": "prenotato",
     "calendarAvailable": "disponibile",
-    "calendarArrivalDay": "sabato — giorno di arrivo",
+    "calendarArrivalDay": "Sabato — Giorno di Arrivo",
     "calendarUpdated": "Aggiornato",
     "rulesLabel": "Regolamento della casa",
     "rules": [
       "Villa Dvori viene affittata esclusivamente per intero.",
       "Il soggiorno minimo a Villa Dvori è di 7 notti.",
-      "Villa Dvori si affitta esclusivamente da sabato a sabato.",
+      "Villa Dvori si affitta esclusivamente su base da sabato a sabato.",
       "La villa può ospitare un massimo di 12 persone, inclusi bambini e neonati.",
-      "La caparra confirmatoria è pari al 25% dell'importo totale della locazione.",
-      "Il check-in è previsto dopo le 16:00, il check-out entro le 10:00."
+      "È richiesto un deposito cauzionale pari al 25% dell'importo totale della locazione.",
+      "Il check-in è previsto dalle 16:00, il check-out entro le 10:00."
     ]
   },
   "pages": {
     "home": {
       "title": "Villa Dvori | Casa Mediterranea per 12 persone | Pelješac, Croazia",
-      "description": "Villa Dvori — villa di lusso per vacanze a Podobuče, Pelješac, Croazia. Piscina riscaldata, giardini mediterranei, vista mare. Ospita fino a 12 persone.",
+      "description": "Villa Dvori — lussuosa villa per vacanze a Podobuče, Pelješac, Croazia. Piscina riscaldata, giardini mediterranei e splendida vista mare. Ospita fino a 12 persone.",
       "exteriorTitle": "Spazi esterni",
-      "exteriorSubtitle": "Giardini, piscina, terrazze e vista panoramica sull'Adriatico",
+      "exteriorSubtitle": "Giardini curati, piscina, terrazze e vista panoramica sull'Adriatico",
       "interiorTitle": "Spazi interni",
       "interiorSubtitle": "Camere da letto, accoglienti zone giorno e cucina completamente attrezzata",
       "viewAllPhotos": "Vedi tutte le foto",
-      "floorPlanTitle": "Planimetria"
+      "floorPlanTitle": "Planimetria",
+      "floorPlanSubtitle": "Tre appartamenti indipendenti disposti su due livelli"
     },
     "gallery": {
       "title": "Galleria Fotografica | Villa Dvori — Pelješac, Croazia",
-      "description": "Sfoglia le foto di Villa Dvori — piscina riscaldata, giardini, terrazze, camere da letto, cucina e splendida vista sul mare a Podobuče, Pelješac.",
+      "description": "Sfoglia le foto di Villa Dvori — piscina riscaldata, giardini rigogliosi, terrazze panoramiche, camere da letto, cucina e splendida vista sul mare a Podobuče.",
       "heading": "GALLERIA",
       "subtitle": "Muri in pietra autentica, piscina riscaldata e giardini mediterranei",
       "exteriorTitle": "Spazi esterni",
@@ -109,22 +111,33 @@
       "interiorSubtitle": "Camere da letto, accoglienti zone giorno e cucina completamente attrezzata",
       "allPhotosTitle": "Tutte le foto",
       "floorPlanTitle": "Planimetria",
+      "floorPlanSubtitle": "Tre appartamenti indipendenti disposti su due livelli",
       "imgAlt": "Piscina di Villa Dvori"
     },
     "location": {
-      "title": "Posizione e Contatti | Villa Dvori — Pelješac, Croazia",
-      "description": "Villa Dvori si trova a Podobuče, un tranquillo villaggio di pescatori sulla penisola di Pelješac. Scoprite le vicine isole di Korčula, Mljet e Dubrovnik."
+      "title": "Posizione e Indicazioni | Villa Dvori — Pelješac, Croazia",
+      "description": "Villa Dvori è immersa a Podobuče, un tranquillo villaggio di pescatori sulla penisola di Pelješac. Scoprite le vicine Korčula, Mljet e Dubrovnik.",
+      "heading": "POSIZIONE",
+      "subtitle": "Podobuče, Pelješac, Croazia",
+      "imgAlt": "Il villaggio di Podobuče sulla penisola di Pelješac"
     },
     "video": {
       "title": "Video Tour | Villa Dvori — Pelješac, Croazia",
-      "description": "Guarda il video tour di Villa Dvori a Podobuče, sulla penisola di Pelješac. Scopri la piscina, i giardini, le terrazze e la splendida vista sul mare Adriatico.",
+      "description": "Guarda il video tour di Villa Dvori a Podobuče, sulla penisola di Pelješac. Esplora la piscina, i giardini, le terrazze e la splendida vista sul mare Adriatico.",
       "heading": "SCOPRILA IN VIDEO"
     },
     "contact": {
       "title": "Contatti e Prenotazioni | Villa Dvori — Pelješac, Croazia",
-      "description": "Contatta Villa Dvori per verificare la disponibilità e ricevere un preventivo. Saremo felici di aiutarti a pianificare la tua vacanza da sogno in Croazia.",
+      "description": "Contatta Villa Dvori per verificare la disponibilità e richiedere un preventivo. Non vediamo l'ora di aiutarti a pianificare la tua vacanza da sogno in Croazia.",
       "heading": "METTITI IN CONTATTO",
       "subtitle": "Non vediamo l'ora di ospitarti"
+    },
+    "accommodation": {
+      "title": "Alloggio | Villa Dvori — Pelješac, Croazia",
+      "description": "Scopri l'alloggio della Villa Dvori — tre appartamenti indipendenti, ciascuno con due camere da letto e bagno privato, per ospitare fino a 12 persone a Podobuče, Pelješac.",
+      "heading": "ALLOGGIO",
+      "subtitle": "Tre appartamenti privati · cucina in comune · piscina riscaldata",
+      "imgAlt": "Alloggio di Villa Dvori"
     },
     "reviews": {
       "title": "Recensioni degli ospiti | Villa Dvori — Pelješac, Croazia",
@@ -133,6 +146,14 @@
       "subtitle": "Ricordi creati, storie condivise",
       "imgAlt": "Piscina e giardino di Villa Dvori"
     }
+  },
+  "space": {
+    "label": "Gli Spazi",
+    "headingItalic": "Tre appartamenti,",
+    "headingStrong": "UNA SOLA VILLA",
+    "p1": "La struttura è composta da tre appartamenti indipendenti, ciascuno dei quali offre due camere da letto, un soggiorno, un bagno privato e una toilette separata — garantendo il massimo del comfort e della privacy per ogni gruppo.",
+    "p2": "Gli spazi comuni includono una cucina spaziosa e interamente attrezzata con barbecue ideale per stimolare la vostra creatività culinaria, ampie terrazze dotate di due tavoli da pranzo e comode poltrone da esterno, e una terrazza dedicata al ping-pong. La piscina riscaldata, affiancata da due aree solarium, è immersa in un lussureggiante giardino mediterraneo dominato da una maestosa palma.",
+    "floorPlanAlt": "Planimetria di Villa Dvori"
   },
   "reviews": {
     "label": "Recensioni degli ospiti",

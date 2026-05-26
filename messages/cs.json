@@ -1,25 +1,26 @@
 {
   "nav": {
     "home": "DOMŮ",
+    "accommodation": "UBYTOVÁNÍ",
     "gallery": "GALERIE",
-    "location": "POLOHA",
+    "location": "LOKALITA",
     "video": "VIDEO PROHLÍDKA",
     "bookNow": "REZERVOVAT",
     "reviews": "RECENZE"
   },
   "hero": {
     "learnMore": "ZJISTIT VÍCE",
-    "tagline": "Středomořský dům pro 12 · Pelješac, Chorvatsko",
+    "tagline": "Středomořský dům pro 12 osob · Pelješac, Chorvatsko",
     "imgAlt": "Letecký pohled na Villu Dvori"
   },
   "accommodation": {
     "heading": "VILLA DVORI",
-    "subheading": "Středomořský dům pro 12",
-    "p1": "Chcete si užívat výhled na moře z vyhřívaného bazénu obklopeného krásnými středomořskými zahradami? Vila se skládá ze tří nezávislých bytových jednotek, z nichž každá má dvě ložnice, koupelnu a obývací pokoj. Součástí je také prostorná a plně vybavená kuchyně s jídelnou a vlastní koupelnou.",
-    "p2": "Dům byl navržen tak, aby poskytoval ideální prostor pro více rodin, které chtějí trávit čas společně, ale zároveň si zachovat soukromí. Všechny jednotky jsou vybaveny televizí, Wi-Fi a klimatizací.",
-    "detailsLabel": "Podrobnosti ubytování",
+    "subheading": "Středomořský dům pro 12 osob",
+    "p1": "Chcete si užívat výhled na moře z vyhřívaného bazénu obklopeného krásnými středomořskými zahradami? Vila se skládá ze tří samostatných apartmánů, z nichž každý má dvě ložnice, koupelnu a obývací pokoj. Součástí je také prostorná, plně vybavená kuchyně s jídelnou a vlastní koupelnou.",
+    "p2": "Dům byl navržen tak, aby poskytoval ideální prostor pro více rodin nebo skupin přátel, kteří chtějí trávit čas společně, ale zároveň si chtějí zachovat své soukromí. Všechny jednotky jsou vybaveny televizí, Wi-Fi a klimatizací.",
+    "detailsLabel": "Podrobnosti o ubytování",
     "details": {
-      "accommodates": "KAPACITA",
+      "accommodates": "MAX. KAPACITA",
       "rooms": "POKOJE",
       "beds": "MANŽELSKÉ POSTELE (KING SIZE)",
       "bathrooms": "KOUPELNY",
@@ -35,9 +36,9 @@
     }
   },
   "location": {
-    "heading": "POLOHA",
+    "heading": "LOKALITA",
     "subtitle": "Podobuče, Pelješac, Chorvatsko",
-    "description": "Podobuče je klidná rybářská vesnice na poloostrově Pelješac — nabízí dvě restaurace, křišťálově čistou vodu a pohodové tempo života. Odtud se snadno dostanete lodí na ostrov Korčula, prozkoumáte jezera a lesy na Mljetu, ochutnáte slavná pelješacká vína Dingač nebo zajedete autem do Dubrovníku na prohlídku historického starého města.",
+    "description": "Podobuče je klidná rybářská vesnička na poloostrově Pelješac, která nabízí dvě restaurace, křišťálově čistou vodu a pohodové tempo života. Odtud se snadno dostanete lodí na ostrov Korčula, můžete prozkoumat jezera a lesy na Mljetu, ochutnat slavná pelješacká vína Dingač nebo zajet autem do Dubrovníku na jednodenní výlet do historického starého města.",
     "destinations": {
       "podobuce": {
         "name": "Podobuče",
@@ -60,9 +61,9 @@
   "team": {
     "label": "Vaši hostitelé",
     "headingItalic": "Tým Villy Dvori,",
-    "headingStrong": "RODINA",
-    "description": "Jsme rodina z Dubrovníku, která postavila Villu Dvori s cílem vytvořit dokonalé místo pro společnou dovolenou více rodin. Žijeme poblíž a jsme vám vždy k dispozici — rádi doporučíme restauraci, zajistíme lodní taxi nebo vás prostě jen srdečně přivítáme při příjezdu.",
-    "imgAlt": "Tým Villy Dvori — rodina"
+    "headingStrong": "RODINA K VAŠIM SLUŽBÁM",
+    "description": "Jsme rodina z Dubrovníku, která postavila Villu Dvori s cílem vytvořit dokonalé místo pro společnou dovolenou více rodin. Žijeme poblíž a jsme vám vždy plně k dispozici — ať už pro osobní doporučení restaurací, zajištění lodního taxi, nebo prostě pro vřelé přivítání při vašem příjezdu.",
+    "imgAlt": "Tým Villy Dvori — vaše hostitelská rodina"
   },
   "video": {
     "label": "Video prohlídka"
@@ -70,14 +71,14 @@
   "contact": {
     "label": "Dostupnost a rezervace",
     "heading": "KONTAKTUJTE NÁS",
-    "subtitle": "Zašlete nám svůj dotaz a my vám rádi připravíme naši nejlepší nabídku na míru",
-    "airbnbText": "K dispozici také na platformě",
+    "subtitle": "Zašlete nám poptávku a my vám rádi připravíme naši nejlepší nabídku na míru",
+    "airbnbText": "Najdete nás také na platformě",
     "rulesLabel": "Domovní řád",
     "rules": [
       "Villa Dvori se pronajímá pouze jako celý objekt.",
-      "Minimální délka pobytu je 7 nocí.",
+      "Minimální délka pobytu ve Ville Dvori je 7 nocí.",
       "Villa Dvori se pronajímá v cyklech od soboty do soboty.",
-      "Maximální kapacita je 12 osob, včetně dětí a kojenců.",
+      "Kapacita vily je maximálně 12 osob, včetně dětí a kojenců.",
       "Záloha při rezervaci činí 25 % z celkové ceny pronájmu.",
       "Příjezd je možný po 16:00, odjezd do 10:00."
     ]
@@ -85,49 +86,69 @@
   "pages": {
     "home": {
       "title": "Villa Dvori | Středomořský dům pro 12 osob | Pelješac, Chorvatsko",
-      "description": "Villa Dvori — luxusní prázdninová vila v letovisku Podobuče na poloostrově Pelješac. Vyhřívaný bazén, středomořské zahrady, výhled na moře. Kapacita 12 hostů.",
-      "exteriorTitle": "Exteriér",
+      "description": "Villa Dvori — luxusní prázdninová vila v letovisku Podobuče na poloostrově Pelješac. Vyhřívaný bazén, středomořské zahrady, výhled na moře. Kapacita až 12 hostů.",
+      "exteriorTitle": "Venkovní prostory",
       "exteriorSubtitle": "Zahrady, bazén, terasy a panoramatický výhled na Jadran",
-      "interiorTitle": "Interiér",
-      "interiorSubtitle": "Ložnice, obývací prostory a plně vybavená kuchyně",
+      "interiorTitle": "Vnitřní prostory",
+      "interiorSubtitle": "Ložnice, útulné obývací pokoje a plně vybavená kuchyně",
       "viewAllPhotos": "Zobrazit všechny fotografie",
-      "floorPlanTitle": "Půdorys"
+      "floorPlanTitle": "Půdorys",
+      "floorPlanSubtitle": "Tři samostatné apartmány ve dvou podlažích"
     },
     "gallery": {
       "title": "Fotogalerie | Villa Dvori — Pelješac, Chorvatsko",
       "description": "Prohlédněte si fotografie Villy Dvori — vyhřívaný bazén, zahrady, terasy, ložnice, kuchyně a úžasný výhled na moře v Podobuče.",
       "heading": "GALERIE",
-      "subtitle": "Kamenné zdi, vyhřívaný bazén a středomořská vegetace",
-      "exteriorTitle": "Exteriér",
+      "subtitle": "Autentické kamenné zdi, vyhřívaný bazén a středomořská vegetace",
+      "exteriorTitle": "Venkovní prostory",
       "exteriorSubtitle": "Zahrady, bazén, terasy a panoramatický výhled na Jadran",
-      "interiorTitle": "Interiér",
+      "interiorTitle": "Vnitřní prostory",
       "interiorSubtitle": "Ložnice, obývací prostory a plně vybavená kuchyně",
       "allPhotosTitle": "Všechny fotografie",
       "floorPlanTitle": "Půdorys",
+      "floorPlanSubtitle": "Tři samostatné apartmány ve dvou podlažích",
       "imgAlt": "Bazén Villy Dvori"
     },
     "location": {
       "title": "Poloha a doprava | Villa Dvori — Pelješac, Chorvatsko",
-      "description": "Villa Dvori se nachází v Podobuče, klidné rybářské vesnici na poloostrově Pelješac. Objevte blízkou Korčulu, Mljet a Dubrovník."
+      "description": "Villa Dvori se nachází v Podobuče, klidné rybářské vesnici na poloostrově Pelješac. Objevte blízkou Korčulu, Mljet a Dubrovník.",
+      "heading": "LOKALITA",
+      "subtitle": "Podobuče, Pelješac, Chorvatsko",
+      "imgAlt": "Vesnice Podobuče na poloostrově Pelješac"
     },
     "video": {
       "title": "Video prohlídka | Villa Dvori — Pelješac, Chorvatsko",
-      "description": "Podívejte se na video prohlídku Villy Dvori v Podobuče na Pelješacu. Prohlédněte si bazén, zahrady, terasy a nádherný výhled na moře.",
+      "description": "Podívejte se na video prohlídku Villy Dvori v Podobuče na Pelješacu. Prohlédněte si bazén, zahrady, terasy a nádherný výhled na Jadranské moře.",
       "heading": "PŘESVĚDČTE SE SAMI"
     },
     "contact": {
       "title": "Kontakt a rezervace | Villa Dvori — Pelješac, Chorvatsko",
-      "description": "Kontaktujte Villu Dvori pro ověření dostupnosti a získání nabíd```ky. Rádi vám pomůžeme naplánovat vaši vysněnou dovolenou v Chorvatsku.",
+      "description": "Kontaktujte Villu Dvori pro ověření dostupnosti a získání cenové nabídky. Rádi vám pomůžeme naplánovat vaši vysněnou dovolenou v Chorvatsku.",
       "heading": "SPOJTE SE S NÁMI",
       "subtitle": "Těšíme se na vaši návštěvu"
     },
+    "accommodation": {
+      "title": "Ubytování | Villa Dvori — Pelješac, Chorvatsko",
+      "description": "Prozkoumejte ubytování ve Ville Dvori — tři samostatné apartmány, každý se dvěma ložnicemi a koupelnou, až pro 12 hostů v Podobuče na Pelješacu.",
+      "heading": "UBYTOVÁNÍ",
+      "subtitle": "Tři soukromé apartmány · společná kuchyně · vyhřívaný bazén",
+      "imgAlt": "Ubytování ve Ville Dvori"
+    },
     "reviews": {
       "title": "Recenze hostů | Villa Dvori — Pelješac, Chorvatsko",
-      "description": "Přečtěte si, co říkají hosté o Villa Dvori — luxusní dovolenkové vile v Podobuče na poloostrově Pelješac.",
+      "description": "Přečtěte si, co říkají hosté o Ville Dvori — luxusní dovolenkové vile v Podobuče na poloostrově Pelješac.",
       "heading": "RECENZE",
-      "subtitle": "Vzpomínky vytvořeny, příběhy sdíleny",
+      "subtitle": "Kde se rodí vzpomínky a sdílejí příběhy",
       "imgAlt": "Bazén a zahrada Villa Dvori"
     }
+  },
+  "space": {
+    "label": "Prostory",
+    "headingItalic": "Tři apartmány,",
+    "headingStrong": "JEDNA VILA",
+    "p1": "Ubytování se skládá ze tří nezávislých apartmánů, z nichž každý má dvě ložnice, obývací pokoj, soukromou koupelnu a samostatné WC — pro maximální pohodlí a soukromí každé skupiny.",
+    "p2": "Společné prostory zahrnují prostornou, plně vybavenou kuchyni s grilem, která probudí vaši kulinářskou kreativitu, velkorysé terasy se dvěma jídelními stoly a pohodlným venkovním posezením a také terasu se stolním tenisem. Vyhřívaný bazén se dvěma zónami na opalování je obklopen bujnou středomořskou zahradou, které dominuje vzrostlá palma.",
+    "floorPlanAlt": "Půdorys Villy Dvori"
   },
   "reviews": {
     "label": "Recenze hostů",

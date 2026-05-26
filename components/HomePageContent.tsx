@@ -1,13 +1,13 @@
 import Hero from '@/components/Hero';
 import AccommodationSection from '@/components/AccommodationSection';
-import GalleryGrid from '@/components/GalleryGrid';
+import ExteriorInteriorGalleries from '@/components/ExteriorInteriorGalleries';
+import SpaceSection from '@/components/SpaceSection';
 import LocationSection from '@/components/LocationSection';
 import TeamSection from '@/components/TeamSection';
 import ReviewsSection from '@/components/ReviewsSection';
 import ContactSection from '@/components/ContactSection';
 import { Link } from '@/i18n/navigation';
 import Button from '@/components/Button';
-import { exteriorImages, interiorImages } from '@/data/images';
 
 const jsonLd = {
   '@context': 'https://schema.org',
@@ -71,27 +71,18 @@ export default function HomePageContent({
       />
       <Hero />
       <AccommodationSection />
-      <div className='py-4'>
-        <GalleryGrid
-          images={exteriorImages}
-          layout='exterior'
-          title={exteriorTitle}
-          subtitle={exteriorSubtitle}
-        />
+      <ExteriorInteriorGalleries
+        exteriorTitle={exteriorTitle}
+        exteriorSubtitle={exteriorSubtitle}
+        interiorTitle={interiorTitle}
+        interiorSubtitle={interiorSubtitle}
+      />
+      <div className='text-center pb-4 my-3'>
+        <Button variant='outline' as={Link} href='/photo'>
+          {viewAllPhotos}
+        </Button>
       </div>
-      <div className='pb-4'>
-        <GalleryGrid
-          images={interiorImages}
-          layout='interior'
-          title={interiorTitle}
-          subtitle={interiorSubtitle}
-        />
-        <div className='text-center mt-5 mb-3'>
-          <Button variant='outline' as={Link} href='/photo'>
-            {viewAllPhotos}
-          </Button>
-        </div>
-      </div>
+      <SpaceSection />
       <LocationSection />
       <TeamSection />
       <ReviewsSection preview />

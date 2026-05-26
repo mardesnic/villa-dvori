@@ -8,12 +8,16 @@ interface Props {
   subtitle: string;
 }
 
-export default function ReviewsPageContent({ imgAlt, heading, subtitle }: Props) {
+export default function ReviewsPageContent({
+  imgAlt,
+  heading,
+  subtitle,
+}: Props) {
   return (
     <main style={{ paddingTop: 56 }}>
       <div style={{ position: 'relative', height: 320, overflow: 'hidden' }}>
         <Image
-          src='/images/hero.webp'
+          src='/images/gallery/13.webp'
           alt={imgAlt}
           fill
           style={{ objectFit: 'cover', objectPosition: 'center 60%' }}

@@ -9,7 +9,7 @@ const destinationImgs: Record<(typeof destinationKeys)[number], string> = {
   dubrovnik: '/images/location/dubrovnik.webp',
 };
 
-export default async function LocationSection() {
+export default async function LocationSection({ hideHeading }: { hideHeading?: boolean } = {}) {
   const t = await getTranslations('location');
 
   return (
@@ -17,15 +17,19 @@ export default async function LocationSection() {
       <div className='container py-5'>
         <div className='row justify-content-center'>
           <div className='col-lg-7 text-center'>
-            <h2 className='mb-1' style={{ letterSpacing: '0.08em' }}>
-              {t('heading')}
-            </h2>
-            <p
-              className='font-garamond mb-4'
-              style={{ fontStyle: 'italic', fontSize: '1.3rem', color: '#666' }}
-            >
-              {t('subtitle')}
-            </p>
+            {!hideHeading && (
+              <>
+                <h2 className='mb-1' style={{ letterSpacing: '0.08em' }}>
+                  {t('heading')}
+                </h2>
+                <p
+                  className='font-garamond mb-4'
+                  style={{ fontStyle: 'italic', fontSize: '1.3rem', color: '#666' }}
+                >
+                  {t('subtitle')}
+                </p>
+              </>
+            )}
             <p style={{ lineHeight: 1.9, color: '#444' }}>
               {t('description')}
             </p>

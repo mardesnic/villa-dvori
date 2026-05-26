@@ -1,6 +1,7 @@
 {
   "nav": {
     "home": "STARTSEITE",
+    "accommodation": "UNTERKUNFT",
     "gallery": "GALERIE",
     "location": "LAGE",
     "video": "VIDEO-TOUR",
@@ -9,12 +10,12 @@
   },
   "hero": {
     "learnMore": "MEHR ERFAHREN",
-    "tagline": "Mediterranes Haus für 12 · Pelješac, Kroatien",
+    "tagline": "Mediterranes Haus für 12 Personen · Pelješac, Kroatien",
     "imgAlt": "Luftaufnahme der Villa Dvori"
   },
   "accommodation": {
     "heading": "VILLA DVORI",
-    "subheading": "Mediterranes Ferienhaus für 12",
+    "subheading": "Mediterranes Ferienhaus für 12 Personen",
     "p1": "Möchten Sie den Meerblick aus einem beheizten Pool genießen, umgeben von wunderschönen mediterranen Gärten? Die Villa besteht aus drei separaten Wohneinheiten, jeweils mit zwei Schlafzimmern, einem Badezimmer und einem Wohnbereich. Zudem verfügt die Villa über einen großzügigen, voll ausgestatteten Küchen- und Essbereich mit einem weiteren, eigenen Badezimmer.",
     "p2": "Sie wurde mit dem Gedanken entworfen, mehreren Familien oder Freundesgruppen den idealen Raum für eine gemeinsame Zeit zu bieten, ohne dabei auf die eigene Privatsphäre verzichten zu müssen. Alle Wohneinheiten sind mit Fernseher, WLAN und Klimaanlage ausgestattet.",
     "detailsLabel": "Unterkunftsdetails",
@@ -75,7 +76,7 @@
     "availabilityLabel": "Verfügbarkeit",
     "calendarBooked": "gebucht",
     "calendarAvailable": "verfügbar",
-    "calendarArrivalDay": "samstag — anreisetag",
+    "calendarArrivalDay": "Samstag — Anreisetag",
     "calendarUpdated": "Aktualisiert",
     "rulesLabel": "Hausordnung",
     "rules": [
@@ -96,7 +97,8 @@
       "interiorTitle": "Innenbereich",
       "interiorSubtitle": "Schlafzimmer, gemütliche Wohnräume und voll ausgestattete Küche",
       "viewAllPhotos": "Alle Fotos ansehen",
-      "floorPlanTitle": "Grundriss"
+      "floorPlanTitle": "Grundriss",
+      "floorPlanSubtitle": "Drei separate Apartments auf zwei Stockwerken"
     },
     "gallery": {
       "title": "Fotogalerie | Villa Dvori — Pelješac, Kroatien",
@@ -109,11 +111,15 @@
       "interiorSubtitle": "Schlafzimmer, gemütliche Wohnräume und voll ausgestattete Küche",
       "allPhotosTitle": "Alle Fotos",
       "floorPlanTitle": "Grundriss",
+      "floorPlanSubtitle": "Drei separate Apartments auf zwei Stockwerken",
       "imgAlt": "Pool der Villa Dvori"
     },
     "location": {
       "title": "Lage & Anreise | Villa Dvori — Pelješac, Kroatien",
-      "description": "Die Villa Dvori befindet sich in Podobuče, einem ruhigen Fischerdorf auf der Halbinsel Pelješac. Entdecken Sie das nahe gelegene Korčula, Mljet und Dubrovnik."
+      "description": "Die Villa Dvori befindet sich in Podobuče, einem ruhigen Fischerdorf auf der Halbinsel Pelješac. Entdecken Sie das nahe gelegene Korčula, Mljet und Dubrovnik.",
+      "heading": "LAGE",
+      "subtitle": "Podobuče, Pelješac, Kroatien",
+      "imgAlt": "Dorf Podobuče auf der Halbinsel Pelješac"
     },
     "video": {
       "title": "Video-Tour | Villa Dvori — Pelješac, Kroatien",
@@ -126,6 +132,13 @@
       "heading": "NEHMEN SIE KONTAKT AUF",
       "subtitle": "Wir freuen uns darauf, Sie als Gäste zu begrüßen"
     },
+    "accommodation": {
+      "title": "Unterkunft | Villa Dvori — Pelješac, Kroatien",
+      "description": "Entdecken Sie die Unterkunft in der Villa Dvori — drei unabhängige Apartments, jedes mit zwei Schlafzimmern und eigenem Badezimmer, für bis zu 12 Gäste in Podobuče, Pelješac.",
+      "heading": "UNTERKUNFT",
+      "subtitle": "Drei private Apartments · gemeinsame Küche · beheizter Pool",
+      "imgAlt": "Unterkunft der Villa Dvori"
+    },
     "reviews": {
       "title": "Gästebewertungen | Villa Dvori — Pelješac, Kroatien",
       "description": "Lesen Sie, was Gäste über Villa Dvori sagen — eine luxuriöse Ferienvilla in Podobuče auf der Halbinsel Pelješac.",
@@ -133,6 +146,14 @@
       "subtitle": "Erinnerungen geschaffen, Geschichten geteilt",
       "imgAlt": "Pool und Garten der Villa Dvori"
     }
+  },
+  "space": {
+    "label": "Die Räumlichkeiten",
+    "headingItalic": "Drei Apartments,",
+    "headingStrong": "EINE VILLA",
+    "p1": "Die Unterkunft besteht aus drei unabhängigen Apartments, jedes mit zwei Schlafzimmern, einem Wohnzimmer, einem eigenen Badezimmer und einem separaten WC — für maximalen Komfort und die Privatsphäre aller Gäste.",
+    "p2": "Gemeinsam genutzte Bereiche umfassen eine geräumige, voll ausgestattete Küche und eine Grillstation, an der Sie Ihre kulinarische Kreativität entfalten können, großzügige Terrassen mit zwei Esstischen und bequemen Gartenstühlen sowie eine Tischtennisterrasse. Der beheizte Pool mit zwei Sonnendecks liegt eingebettet in einen üppigen mediterranen Garten, der von einer stattlichen Palme überragt wird.",
+    "floorPlanAlt": "Grundriss der Villa Dvori"
   },
   "reviews": {
     "label": "Gästebewertungen",

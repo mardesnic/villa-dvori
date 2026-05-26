@@ -12,7 +12,7 @@ export default function ContactPageContent({ heading, subtitle }: Props) {
     <main style={{ paddingTop: 56 }}>
       <div style={{ position: 'relative', height: 340, overflow: 'hidden' }}>
         <Image
-          src='/images/gallery/exterior/1.webp'
+          src='/images/gallery/6.webp'
           alt='Villa Dvori exterior'
           fill
           style={{ objectFit: 'cover', objectPosition: 'center 60%' }}
